@@ -1,0 +1,2338 @@
+{
+    "intents": [
+        {
+            "tag": "Greeting_halo",
+            "patterns": ["Halo", "Haloo", "Halooo", "Haloooo", "Halooooo", "Hallo", "Halloo", "Hallooo", "Halloooo", "Halo, saya ingin bertanya tentang stunting","Halo, saya mau bertanya tentang stunting", "Halo, saya mau mananyakan tentang stunting","Halo, saya mau menanyakan seputar stunting."],
+            "responses": [
+                "Halo, silahkan berikan pertanyaan anda."
+            ]
+        },
+                {
+            "tag": "Greeting_hai",
+            "patterns": ["Hai", "Haii", "Haiii", "Haiiii", "Haiiiii", "Hai, saya ingin bertanya tentang stunting", "Hai, saya mau bertanya tentang stunting", "Hai, saya mau mananyakan tentang stunting", "Hai, saya mau menanyakan seputar stunting."],
+            "responses": [
+                "Hai, silahkan berikan pertanyaan anda."
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": [
+                "Dadah", "Dadaahh", "Dadaaaahh", "Dadaaah", "Dadaahhh", "Daahh", "Dahh", "Daaahhh", "Dadaaahhh", "Daadaahh", "Daaadaahh", "dah", "Dadah, sampai jumpa lagi", "Dah, sampai jumpa lagi"],
+            "responses": [
+                "Dadah, senang bisa membantu anda, sampai jumpa lagi.","Dah, senang bisa membantu anda, sampai jumpa lagi."]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "Terimakasih", "Terimakasihh", "Terimakasi", "Terimakasiihh", "Terimakasiiihhh", "Terimakasihhh", "Terimakaci", "Terimakacih", "Terimakasiiihhh", "Makasih", "Makasi", "Makasii", "Makasiii", "Makasihh", "Makasiihh", "Terimakasih atas bantuannya", "Makasih atas bantuannya","terimakasih atas jawabannya","makasih atas jawabannya", "Thank you", "Thank you so much", "Thanks"],
+            "responses": [
+                "Sama-sama, senang bisa membantu anda."]
+        },
+        {
+            "tag": "Pengertian_Stunting",
+            "patterns": [
+                "Apa itu stunting?",
+                "Apa arti stunting?",
+                "Apa pengertian dari stunting?",
+                "Apa yang dimaksud dengan stunting?",
+                "Pengertian stunting?",
+                "Maksud dari stunting?",
+                "Stunting adalah?",
+                "Apa arti dari stunting?",
+                "Stunting itu apa?",
+                "Pengertian dari stunting?",
+                "Stunting itu apa sih?"
+            ],
+            "responses": [
+                "Stunting adalah gangguan pertumbuhan dan perkembangan bayi akibat kekurangan gizi dalam jangka panjang. Stunting bisa disebabkan oleh malnutrisi yang dialami ibu saat hamil, atau bayi pada masa pertumbuhannya. Stunting dan kekurangan gizi lainnya yang terjadi pada 1.000 HPK tidak hanya menyebabkan hambatan pertumbuhan fisik dan meningkatkan kerentanan terhadap penyakit, tetapi juga mengancam perkembangan kognitif yang akan berpengaruh pada tingkat kecerdasan saat ini dan produktivitas bayi di masa dewasanya."
+            ]
+        },
+        {
+            "tag":"Penyebab_Stunting",
+            "patterns":[
+                "Apa penyebab stunting?",
+                "Apa yang menyebabkan stunting?",
+                "Penyebab stunting?",
+                "Apa penyebab utama stunting?",
+                "Kenapa stunting bisa terjadi?",
+                "Kenapa bayi mengalami stunting?",
+                "Apa yang menyebabkan bayi mengalami stunting?",
+                "Mengapa stunting bisa terjadi?",
+                "Mengapa stunting bisa terjadi pada bayi?"
+            ],
+            "responses":[
+                "Bayi bisa mengalami stunting karena banyak penyebab, antara lain faktor asupan gizi ibu dan bayi, status kesehatan balita, ketahanan pangan, lingkungan sosial dan kesehatan, lingkungan pemukiman, kemiskinan, dan lain-lain. Kekurangan gizi dalam waktu lama itu terjadi sejak janin dalam kandungan sampai awal kehidupan bayi (1000 Hari Pertama Kelahiran). Penyebabnya karena rendahnya asupan vitamin dan mineral, dan buruknya keragaman pangan dan sumber protein hewani. Faktor lainnya yang menyebabkan stunting adalah terjadi infeksi pada ibu, kehamilan remaja, gangguan mental pada ibu, jarak kelahiran bayi yang pendek, dan hipertensi. Selain itu, rendahnya pengetahuan tentang gizi juga dapat menjadi penyebab terjadi stunting."
+            ]
+        },
+        {
+            "tag":"Diagnosis_Stunting",
+            "patterns":[
+                "Bagaimana mendiagnosis stunting?",
+                "Cara mendiagnosis stunting?",
+                "Bagaimana cara mendiagnosis stunting?",
+                "Apakah stunting bisa di diagnosis?",
+                "Diagnosis stunting?",
+                "Mendiagnosis stunting?",
+                "Mendiagnosis stunting gimana?",
+                "Gimana caranya mendiagnosis stunting?"
+            ],
+            "responses":[
+                "Diagnosis stunting pertama-tama dilakukan dengan melakukan tanya jawab oleh petugas kesehatan seputaran asupan makan bayi, riwayat pemberian ASI, riwayat kehamilan dan persalinan, serta lingkungan tempat tinggal bayi. Setelah itu akan dilakukan pemeriksaan fisik berupa mengukur panjang atau tinggi badan, berat badan, lingkar kepala dan lingkar lengan bayi. Seorang bayi dapat di diagnosis stunting bila tinggi badannya berada di bawah garis merah (-2 SD) berdasarkan kurva pertumbuhan WHO."
+            ]
+        },
+        {
+            "tag":"Indikasi_Stunting",
+            "patterns":[
+                "Indikasi stunting?",
+                "Bagaimana mengindikasi stunting?",
+                "Bagaimana mengindikasi anak stunting?",
+                "Bagaimana mengindikasi anak yang terkena stunting?",
+                "Bagaimana cara mengindakasi stunting?",
+                "Bagaimana cara mengindikasi anak stunting?",
+                "Bagaimana cara mengindikasi anak yang terkena stunting?",
+                "Cara mengindakasi stunting?",
+                "Cara mengindikasi anak stunting?",
+                "Cara mengindikasi anak yang terkena stunting?",
+                "Mengindikasi stunting?",
+                "Cara mengetahui anak terkena stunting?",
+                "Bagaimana cara mengetahui anak terkena stunting?",
+                "Bagaimana cara mengetahui stunting?"
+            ],
+            "responses":[
+                {
+                    "intro": "Untuk mengidentifikasi anak yang mengalami stunting, dapat menggunakan indikator Tinggi Badan untuk Umur (TB/U) anak dengan rincian sebagai berikut:",
+                    "points": [
+                        "Seorang anak mengalami stunting jika Tinggi Badan untuk Umur anak berada di bawah minus 2 standar deviasi atau kurang dari persentil ke-2 dari median referensi pertumbuhan WHO.",
+                        "Seorang anak disebut mengalami stunting parah jika Tinggi Badan untuk Umur anak berada di bawah minus 3 standar deviasi atau kurang dari persentil ke-1 dari median referensi pertumbuhan WHO."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "Dampak_Stunting",
+            "patterns": [
+                "Dampak stunting?",
+                "Apa dampak stunting?",
+                "Apa dampak dari stunting?",
+                "Apa dampak yang disebabkan stunting?",
+                "Apa dampak yang disebabkan oleh stunting?",
+                "Dampak dari stunting?",
+                "Stunting memberikan dampak apa?",
+                "Bagaimana dampat stunting?",
+                "Bagiamana dampak dari stunting?",
+                "Bagaimana dampak yang disebabkan stunting?",
+                "Bagaimana dampak yang disebabkan oleh stunting?",
+                "Apakah ada dampak dari stunting?",
+                "Dampak yang disebabkan stunting?",
+                "Dampak yang disebabkan oleh stunting?"
+            ],
+            "responses": [
+                {
+                    "intro": "Dampak stunting tidak hanya terbatas pada tinggi badan yang kurang. Stunting memiliki konsekuensi jangka panjang yang serius pada kesehatan dan perkembangan bayi, serta produktivitas di masa depan. Seperti:",
+                    "points": [
+                        "Stunting dapat menghambat perkembangan kognitif dan kemampuan belajar bayi.",
+                        "bayi yang mengalami stunting lebih rentan terhadap infeksi dan penyakit.",
+                        "Stunting meningkatkan risiko penyakit jantung, diabetes, dan obesitas di kemudian hari.",
+                        "Orang dewasa yang pernah mengalami stunting cenderung memiliki produktivitas kerja yang lebih rendah.",
+                        "Stunting dapat menghambat pertumbuhan ekonomi suatu negara karena mengurangi kualitas sumber daya manusia."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Mencegah_Stunting",
+            "patterns":[
+                "Mencegah stunting?",
+                "Cara mencegah stunting?",
+                "Bagaimana mencegah stunting?",
+                "Bagaimana cara mencegah stunting?",
+                "Cara untuk mencegah stunting?",
+                "Apa yang bisa dilakukan untuk mencegah stunting?",
+                "Upaya mencegah stunting?",
+                "Upaya untuk mencegah stunting?",
+                "Upaya agar bayi tidak terkena stunting?",
+                "Mencegah bayi terkena stunting?",
+                "Cara agar bayi tidak terkena stunting?",
+                "Cara agar stunting tidak terjadi pada bayi?",
+                "Upaya agar stunting tidak terjadi pada bayi?",
+                "Upaya agar stunting tidak terjadi?"
+            ],
+            "responses":[
+                {
+                    "intro": "Pencegahan stunting ialah dengan menghindari faktor yang dapat meningkatkan risiko terjadinya kondisi ini. Upaya yang bisa dilakukan antara lain:",
+                    "points": [
+                        "Memenuhi asupan gizi sebelum kehamilan dan selama kehamilan.",
+                        "Memenuhi asupan gizi selama periode 1000 hari pertama kehidupan.",
+                        "Memberi ASI Eksklusif hingga bayi berusia 6 bulan.",
+                        "Membaca buku KIA.",
+                        "Melakukan pemeriksaan rutin ke posyandu.",
+                        "Memberikan Imunisasi",
+                        "Memberian pola asuh yang tepat",
+                        "Menerapkan hidup bersih di dalam keluarga"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Penanggulangan_Stunting",
+            "patterns":[
+                "Penanggulangan stunting?",
+                "Intervensi stunting?",
+                "Mengintervensi stunting?",
+                "Cara penanggulangan stunting?",
+                "Cara mengintervensi stunting?",
+                "Bagaimana menanggulangi stunting?",
+                "Bagaimana mengintervensi stunting?",
+                "Bagaimana cara penanggulangan stunting?",
+                "Bagaimana cara mengintervensi stunting?",
+                "Cara untuk penanggulangan stunting?",
+                "Cara untuk mengintervensi stunting?",
+                "Apa yang bisa dilakukan untuk menanggulangi stunting?",
+                "Apa yang bisa dilakukan untuk mengintervensi stunting?",
+                "Upaya penanggulangan stunting?",
+                "Upaya mengintervensi stunting?",
+                "Upaya untuk penanggulangan stunting?",
+                "Upaya agar bayi tidak terkena stunting?",
+                "Penanggulangan bayi terkena stunting?",
+                "Cara agar bayi tidak terkena stunting?",
+                "Cara mengintervensi stunting?",
+                "Upaya mengintervensi stunting?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro":"Intervensi Gizi Spesifik."
+                        },
+                        {
+                            "intro": "Intervensi dengan sasaran ibu hamil:",
+                            "points": [
+                                "Memberikan makanan tambahan pada ibu hamil.",
+                                "Mengatasi kekurangan energi dan protein kronis.",
+                                "Mengatasi kekurangan iodium dengan menggunakan garam beriodium.",
+                                "Menanggulangi kecacingan ada ibu hamil.",
+                                "Melindungi ibu hamil dari malaria."
+                            ]
+                        },
+                        {
+                            "intro": "Intervensi dengan sasaran ibu menyusui dan anak usia 0-6 bulan:",
+                            "points": [
+                                "Mendorong inisiasi menyusu dini (IMD) untuk mendapatkan ASI jolong/colostrum.",
+                                "Mendorong pemberian ASI Eksklusif.",
+                                "Mendorong ibu mencuci tangan dengan benar."
+                            ]
+                        },
+                        {
+                            "intro": "Intervensi dengan sasaran ibu menyusui dan anak usia 6-24 bulan:",
+                            "points": [
+                                "Pemberian MPA-ASI sesuai kebutuhan dan bergizi seimbang, serta ASI diteruskan hingga 24 bulan.",
+                                "Menyediakan obat cacing.",
+                                "Menyediakan sumplemen Zink.",
+                                "Melakukan fortifikasi zat besi ke dalam makanan.",
+                                "Memberikan perlindungan terhadap malaria.",
+                                "Memberikan imunisasi.",
+                                "Melakukan pencegahan dan pengobatan diare."
+                            ]
+                        },
+                        {
+                            "intro": "Intervensi Gizi Sensitif:",
+                            "points": [
+                                "Menyediakan dan memastikan akses pada air bersih.",
+                                "Menyediakan dan memastikan akses pada sanitasi.",
+                                "Melakukan fortifikasi bahan pangan.",
+                                "Menyediakan akses pada layanan kesehatan dan keluarga berencana.",
+                                "Menyediakan jaminan kesehatan nasional.",
+                                "Menyediakan jaminan persalinan universal.",
+                                "Memberikan pendidikan anak usia dini universal",
+                                "Memberikan pendidikan pengasuhan pada orang tua.",
+                                "Memberikan pendidikan gizi masyarakat.",
+                                "Memberikan edukasi kesehatan seksual dan reproduksi, serta gizi pada remaja.",
+                                "Menyediakan bantuan dan jaminan sosial bagi keluarga miskin.",
+                                "Meningkatkan ketahanan pangandan gizi."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pengobatan_Stunting",
+        
+            "patterns":[
+                    "Pengobatan stunting?",
+                    "Cara mengobati stunting?",
+                    "Bagaimana pengobatan stunting?",
+                    "Bagaimana cara mengobati stunting?",
+                    "Apakah stunting bisa diobati?",
+                    "Bagimana mengobati stunting?",
+                    "Upaya mengobati stunting?",
+                    "Cara untuk mengobati stunting?",
+                    "Upaya untuk mengobati stunting?",
+                    "Upaya yang dapat dilakukan untuk mengobati stunting?",
+                    "Yang dapat dilakukan untuk mengobati stunting?"
+            ],
+            "responses":[
+                {
+                    "intro": "Pengobatan stunting dapat dilakukan dengan cara mengatasi penyakit penyebabnya, memperbaiki asupan nutrisi, pemberian suplemen, serta penerapan pola hidup bersih dan sehat. Yang dapat dilakukan adalah:",
+                    "points": [
+                        "Memberikan obat-obatan antituberkulosis bila bayi menderita TBC.",
+                        "Memberi makanan yang kaya protein hewani, lemak, dan kalori.",
+                        "Memberi suplemen berupa vitamin A, zinc, zat besi, kalsium dan yodium."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pengertian_ASI_Eksklusif",
+            "patterns":[
+                "Asi eklsusif adalah?",
+                "Pengertian asi eklsklusif?",
+                "Pengertian dari asi eksklusif?",
+                "Arti asi eksklusif?",
+                "Apa itu asi eksklusif?",
+                "Apa yang dimaksud dengan asi eksklusif?",
+                "Apa pengertian dari asi eksklusif?",
+                "Apa arti dari asi eksklusif?",
+                "Apa arti asi eksklusif?",
+                "Asi eksklusif ialah?",
+                "Asi eksklusif merupakan?",
+                "Asi adalah?",
+                "Pengertian asi?",
+                "Pengertian dari asi?",
+                "Arti asi?",
+                "Apa itu asi?",
+                "Apa yang dimaksud dengan asi?",
+                "Apa pengertian dari asi?",
+                "Apa arti dari asi?",
+                "Apa arti asi?",
+                "Asi ialah?",
+                "Asi merupakan?"
+            ],
+            "responses":[
+                "ASI eksklusif adalah pemberian ASI atau air susu ibu untuk bayi sejak baru lahir hingga berusia 6 bulan tanpa digantikan oleh minuman serta makanan lain. Jadi dari usia bayi 0 - 6 bulan, bayi cukup hanya diberi ASI saja."
+            ]
+        },
+        {
+            "tag":"Pengertian_Kolostrum",
+            "patterns":[
+                "Kolostrum adalah?",
+                "Pengertian kolostrum?",
+                "Pengertian dari kolostrum?",
+                "Arti kolostrum?",
+                "Apa itu kolostrum?",
+                "Apa yang dimaksud dengan kolostrum?",
+                "Apa pengertian dari kolostrum?",
+                "Apa arti dari kolostrum?",
+                "Apa arti kolostrum?",
+                "Kolostrum ialah?",
+                "Kolostrum merupakan?",
+                "Kolostrum adalah?",
+                "Pengertian kolostrum?",
+                "Pengertian dari kolostrum?",
+                "Arti kolostrum?",
+                "Apa itu kolostrum?",
+                "Apa yang dimaksud dengan kolostrum?",
+                "Apa pengertian dari kolostrum?",
+                "Apa arti dari kolostrum?",
+                "Apa arti kolostrum?",
+                "Kolostrum ialah?",
+                "Kolostrum merupakan?",
+                "Apa itu kolostrum dan apa manfaatnya?",
+                "Apa itu kolostrum dan manfaatnya?",
+                "Apa manfaat kolostrum?",
+                "Apa manfaat dari kolostrum?",
+                "Manfaat dari kolostrum?",
+                "Manfaat kolostrum?"                
+            ],
+            "responses":[
+                "Kolostrum adalah ASI yang pertama kali keluar dari puting ibu setelah melahirkan. Warnanya kekuningan karena kaya akan vitamin A dan agak kental. Kolostrum adalah bagian dari ASI yang sangat penting diberikan pada bayi di awal kehidupannya karena mengandung antibodi dan faktor pelindung lainnya bagi tubuh bayi yang mampu melindunginya dari berbagai infeksi. Kolostrum tidak bisa digantikan dengan susu formula atau susu pertumbuhan lainnya."
+            ]
+        },
+        {
+            "tag":"Manfaat_ASI_Eksklusif",
+            "patterns":[
+                "Manfaat asi eksklusif?",
+                "Apa manfaat asi eksklusif?",
+                "Apa manfaat dari asi eksklusif?",
+                "Manfaat dari asi eksklusif?",
+                "Manfaat pemberian asi eksklusif?",
+                "Apa manfaat dari pemberian asi eksklusif?",
+                "Manfaat memberikan asi eksklusif?",
+                "Manfaat memberikan asi eksklusif kepada bayi?",
+                "Apa manfaat memberikan asi eksklusif?",
+                "Apa manfaat memberikan asi eksklusif kepada bayi?",
+                "Mengapa penting untuk memberikan bayi asi eksklusif?",
+                "Mengapa memberikan asi eksklusif kepada bayi sangat penting?",
+                "Manfaat asi eksklusif adalah?",
+                "Apa saja manfaat asi eksklusif?",
+                "Apa saja manfaat dari asi eksklusif?",
+                "Kenapa asi eksklusif penting?",
+                "Kenapa memberikan asi eksklusif kepada bayi?",
+                "Kenapa asi eksklusif sangat penting bagi bayi?",
+                "Manfaat asi?",
+                "Apa manfaat asi?",
+                "Apa manfaat dari asi?",
+                "Manfaat dari asi?",
+                "Manfaat pemberian asi?",
+                "Apa manfaat dari pemberian asi?",
+                "Manfaat memberikan asi?",
+                "Manfaat memberikan asi kepada bayi?",
+                "Apa manfaat memberikan asi?",
+                "Apa manfaat memberikan asi kepada bayi?",
+                "Mengapa penting untuk memberikan bayi asi?",
+                "Mengapa memberikan asi eksklusif kepada bayi sangat penting?",
+                "Manfaat asi adalah?",
+                "Apa saja manfaat asi?",
+                "Apa saja manfaat dari asi?",
+                "Kenapa asi penting?",
+                "Kenapa memberikan asi kepada bayi?",
+                "Kenapa asi sangat penting bagi bayi?",
+                "Manfaat asi apa?"
+            ],
+            "responses":[
+                {
+                    "intro": "Pemberian asi eksklusif memiliki manfaat yang sangat banyak bagi ibu dan bayi. Manfaat nya ialah:",
+                    "points": [
+                        "Dapat mengoptimalkan perkembangan bayi.",
+                        "Memberi makanan yang kaya protein hewani, lemak, dan kalori.",
+                        "Memperkuat sistem kekebalan tubuh.",
+                        "Meminimalisir alergi.",
+                        "Membantu mencapai berat badan ideal.",
+                        "Menurunkan resiko kanker payudara pada ibu.",
+                        "Menjaga berat badan ibu.",
+                        "Memperkuat ikatan antara ibu dan bayi semakin kuat."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Cara_Memberi_asi eksklusif",
+            "patterns":[
+                "Cara memberi asi eksklusif?",
+                "Bagaimana cara memberi asi eksklusif?",
+                "Cara memberi asi eksklusif yang benar?",
+                "Bagaimana cara memberi asi eksklusif yang benar?",
+                "Seperti apa cara yang benar untuk memberi asi eksklusif?",
+                "Cara yang benar memberi asi eksklusif?",
+                "Cara untuk memberi asi eksklusif dengan benar?",
+                "Memberi asi eksklusif?",
+                "Memberi asi eksklusif gimana?",
+                "Bagaimana memberi asi eksklusif?",
+                "Cara memberi asi?",
+                "Bagaimana cara memberi asi?",
+                "Cara memberi asi yang benar?",
+                "Bagaimana cara memberi asi yang benar?",
+                "Seperti apa cara yang benar untuk memberi asi?",
+                "Cara yang benar memberi asi?",
+                "Cara untuk memberi asi dengan benar?",
+                "Memberi asi?",
+                "Memberi asi gimana?",
+                "Bagaimana memberi asi?"
+            ],
+            "responses": [
+                {
+                    "sections": [
+                        {
+                            "intro": "Saat memberikan ASI kepada bayi, perhatikan hal-hal berikut ini, agar proses menyusui maksimal sampai bayi merasa kenyang:",
+                            "points": [
+                                "Susui bayi sesering mungkin atau setiap kali bayi menginginkannya, 8-12 kali sehari atau lebih.",
+                                "Bayi menyusu normalnya antara 20-30 menit untuk dua sisi payudara.",
+                                "Bangunkan bayi jika tidur lebih dari 3 jam, lalu susui.",
+                                "Susui sampai payudara terasa kosong, lalu pindah ke payudara lainnya.",
+                                "Jika bayi sudah kenyang, tapi payudara masih terasa penuh/kencang, artinya payudara perlu diperah dan ASI disimpan.",
+                                "Buat bayi dalam kondisi menyenangkan, nyaman, dan penuh perhatian saat disusui."
+                            ]
+                        },
+                        {
+                            "intro": "Dan posisi yang benar untuk menyusui bayi bisa dilakukan seperti ini:",
+                            "points": [
+                                "Gendong bayi dalam posisi kepala dan badan membentuk garis lurus.",
+                                "Letakkan wajah bayi menghadap payudara, dan hidungnya berhadapan dengan puting susu.",
+                                "Pastikan ibu mendekap badan bayi secara utuh dan dekatkan badannya ke tubuh ibu.",
+                                "Dekatkan bayi ke payudara dengan mulut terbuka lebar.",
+                                "Pastikan dagu bayi menyentuh payudara.",
+                                "Bagian aerola di atas lebih banyak terlihat dibandingkan bagian bawah mulut bayi.",
+                                "Pastikan bibir bawah bayi memutar keluar (dower)."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Cara_Memberi_asi eksklusif",
+            "patterns":[
+                "Cara untuk melakukan stimulasi agar asi keluar?",
+				"Bagaimana cara untuk melakukan stimulasi agar asi keluar?",
+				"Cara melakukan stimulasi agar asi keluar?",
+				"Bagaimana cara melakukan stimulasi agar asi keluar?",
+				"Seperti apa cara yang benar melakukan stimulasi agar asi keluar?",
+				"Cara yang benar melakukan stimulasi agar asi keluar?",
+				"Cara untuk memberi asi eksklusif dengan benar?",
+				"Melakukan stimulasi agar asi keluar?",
+				"Untuk melakukan stimulasi agar asi keluar gimana?",
+				"Bagaimana melakukan stimulasi agar asi keluar?",
+				"Bagaimana cara menstimulasi agar asi keluar?",
+				"Cara menstimulasi agar asi keluar?",
+				"Bagaimana menstimulasi agar asi keluar asi yang benar?",
+				"Seperti apa cara yang benar untuk menstimulasi agar asi keluar?",
+				"Cara yang benar menstimulasi agar asi keluar?",
+				"Cara untuk menstimulasi asi benar?",
+				"Menstimulasi agar asi keluar?",
+				"Menstimulasi agar asi keluar gimana?",
+				"Bagaimana menstimulasi agar asi keluar?",
+				"Menstimulasi asi?"
+            ],
+            "responses": [
+                {
+                    "sections": [
+                        {
+                            "intro": "Beriku beberapa cara untuk melakukan stimulasi agar asi dapat keluar:",
+                            "points": [
+                                "Lakukan pijat sekitar area payudara dan punggung bagian belakang serta kompres payudara dengan handuk yang dibasahi dengan air hangat.",
+                                "Tetap mencoba menyusui bayi, karena semakin sering bayi menghisap akan merangsang ASI cepat keluar.",
+                                "Kontak kulit dengan bayi.",
+                                "Jika mengalami kesulitan dalam menyusui, segera berkonsultasi ke petugas kesehatan atau konselor menyusui."
+                            ]
+                        },
+                        {
+                            "intro": "Dan posisi yang benar untuk menyusui bayi bisa dilakukan seperti ini:",
+                            "points": [
+                                "Gendong bayi dalam posisi kepala dan badan membentuk garis lurus.",
+                                "Letakkan wajah bayi menghadap payudara, dan hidungnya berhadapan dengan puting susu.",
+                                "Pastikan ibu mendekap badan bayi secara utuh dan dekatkan badannya ke tubuh ibu.",
+                                "Dekatkan bayi ke payudara dengan mulut terbuka lebar.",
+                                "Pastikan dagu bayi menyentuh payudara.",
+                                "Bagian aerola di atas lebih banyak terlihat dibandingkan bagian bawah mulut bayi.",
+                                "Pastikan bibir bawah bayi memutar keluar (dower)."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Memerah_Menyimpan_ASI",
+            "patterns":[
+                "Memerah dan menyimpan asi?",
+				"Memerah asi?",
+				"Menyimpan asi?",
+				"Cara memerah dan menyimpan asi?",
+				"Bagaimana cara memerah dan menyimpan asi?",
+				"Cara memerah dan menyimpan asi yang benar?",
+				"Bagaimana cara memerah dan menyimpan asi yang benar?",
+				"Apakah asi bisa di perah dan disimpan?",
+				"Apakah bisa asi diperah dan disimpan?",
+				"Apakah bisa memerah asi?",
+				"Apakah bisa menyimpan asi?",
+				"Bagaimana memerah asi?",
+				"Bagaimana menyimpan asi?",
+				"Cara memerah asi?",
+				"Cara menyimpan asi?",
+				"Apakah asi bisa diperah dan disimpan?",
+				"Apakah asi bisa diperah?",
+				"Apakah asi bisa disimpan?"
+            ],
+            "responses":[
+                {
+                    "intro": "Jika ASI perlu di perah dan di simpan, berikut ini hal hal yang perlu dilakukan untuk menjada keamanan dan kualitas ASI:",
+                    "points": [
+                        "Sebelum memerah ASI, cuci tangan terlebih dahulu dengan sabun dan air mengalir.",
+                        "Simpan ASI yang baru diperah dalam berbagai wadah tergantung lama penyimpanannya.",
+                        "Hindari perubahan suhu yang terlalu ekstrim pada ASI perah.",
+                        "Sebelum ASI perah diberikan kepada bayi, rendam dalam wadah berisi air hangat.",
+                        "Gunakan gelas atau mangkuk kaca/keramik dan hindari menggunakan bahan dari plastik atau melamin."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Memperlancar_Produksi_ASI",
+            "patterns":[
+                "Memperlancar produksi asi?",
+				"Bagaimana memperlancar produksi asi?",
+				"Bagaimana cara memperlancar produksi asi?",
+				"Bagaimana cara agar memperlancar produksi asi?",
+				"Apa cara memperlancar produksi asi?",
+				"Apa cara untuk memperlancar produksi asi?",
+				"Cara memperlancar produksi asi?",
+				"Cara agar memperlancar produksi asi?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut adalah beberapa cara untuk memperlancar produksi ASI:",
+                    "points": [
+                        "Menyusui sesering mungkin.",
+                        "Pastikan bayi menyusu sampai payudara terasa kosong.",
+                        "Usahakan untuk mendapatkan istirahat yang cukup.",
+                        "Konsumsi makanan yang sehat dan bergizi penting untuk produksi ASI yang optimal. Konsumsi makanan yang kaya akan protein, zat besi, dan kalsium.",
+                        "Minumlah air putih yang cukup setiap hari.",
+                        "Cari cara untuk mengelola stres, seperti yoga, meditasi, atau mendengarkan musik."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pengertian_MP_ASI",
+            "patterns":[
+                "Pengertian mp asi?",
+				"Pengertian mpasi?",
+				"Pengertian makanan pendamping asi?",
+				"Apa itu mp asi?",
+				"Apa itu mpasi?",
+				"Apa itu makanan pendamping asi?",
+				"Arti mp asi?",
+				"Arti mpasi?",
+				"Arti makanan pendamping asi?",
+				"Apa yang dimaksud dengan mp asi?",
+				"Apa yang dimaksud dengan mpasi?",
+				"Apa yang dimaksud dengan makanan pendamping asi?",
+				"Mp asi itu itu?",
+				"Mpasi itu itu?",
+				"Makanan pendamping asi itu apa?",
+				"Mp asi adalah?",
+				"Mpasi adalah?",
+				"Makanan pendamping asi adalah?",
+				"Pengertian mp asi adalah?",
+				"Pengertian mpasi adalah?",
+				"Pengertian makanan pendamping asi adalah?",
+				"Mp asi itu apa?",
+				"Mpasi itu apa?",
+				"Makanan pendamping asi itu apa?"   
+            ],
+            "responses":[
+                "Makanan pendamping ASI (MP ASI) adalah makanan yang mudah dikonsumsi dan dicerna oleh bayi. MP ASI yang diberikan harus menyediakan nutrisi tambahan untuk memenuhi kebutuhan gizi bayi yang sedang bertumbuh. Seperti namanya, makanan ini diberikan sebagai pendamping bagi bayi. Walaupun ASI merupakan makanan terbaik bagi bayi, bayi berusia > 6 bulan membutuhkan lebih banyak vitamin, mineral, protein, dan karbohidrat. Kebutuhan gizi yang tinggi ini tidak bisa hanya didapatkan dari ASI, tetapi juga membutuhkan tambahan dari makanan pendamping ASI."
+            ]
+        },
+        {
+            "tag":"Manfaat_MP_ASI",
+            "patterns":[
+                "Manfaat mp asi?",
+				"Manfaat mpasi?",
+				"Manfaat makanan pendamping asi?",
+				"Manfaat mp asi bagi bayi?",
+				"Manfaat mpasi bagi bayi?",
+				"Manfaat makanan pendamping asi bagi bayi?",
+				"Apa saja manfaat mp asi?",
+				"Apa saja manfaat mpasi?",
+				"Apa saja manfaat makanan pendamping asi?",
+				"Apa manfaat mp asi?",
+				"Apa manfaat mpasi?",
+				"Apa manfaat makanan pendamping asi?",
+				"Apa manfaat mp asi bagi bayi?",
+				"Apa manfaat mpasi bagi bayi?",
+				"Apa manfaat makanan pendamping asi bayi?",
+				"Apa manfaat memberi mp asi?",
+				"Apa manfaat memberi mpasi?",
+				"Apa manfaat meberi makanan pendamping asi?",
+				"Apa manfaat memberi mp asi pada bayi?",
+				"Apa manfaat memberi mpasi pada bayi?",
+				"Apa manfaat memberi makanan pendamping asi pada bayi?",
+				"Mp asi untuk apa?",
+				"Mpasi untuk apa?",
+				"Makanan pendamping asi untuk apa?",
+				"Mp asi itu untuk apa?",
+				"Mpasi itu untuk apa?",
+				"Makanan pendamping asi itu untuk apa?",
+				"Kenapa memberi mp asi kepada bayi?",
+				"Kenapa memberi mpasi kepada bayi?",
+				"Kenapa memberi makanan pendamping asi kepada bayi?"
+            ],
+            "responses":[
+                 {
+                    "intro": "MP-ASI banyak memiliki maanfaat bagi bayi, berikut ini adalah manfaat MP-ASI:",
+                    "points": [
+                        "MP ASI Membuat Bayi Memiliki Sumber Nutrisi yang Lebih Lengkap.",
+                        "MP ASI Membuat Bayi Tidak Ketergantungan untuk Mengonsumsi ASI Berlebih.",
+                        "MP ASI melengkapi sumber nutrisi bayi.",
+                        "Belajar Rasa Lapar dan Kenyang.",
+                        "Membentuk Pola Makan Sehat.",
+                        "Melatih Motorik Halus si Kecil.",
+                        "Membantu Meningkatkan Imun Tubuh."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pemberian_MP-ASI",
+            "patterns":[
+                "Pemberian mp asi?",
+				"Pemberian mpasi?",
+				"Pemberian makanan pendamping asi bayi?",
+				"Kapan pemberian mp asi?",
+				"Kapan pemberian mpasi?",
+				"Kapan pemberian makanan pendamping asi bayi?",
+				"Kapan waktu untuk memberi makanan pendamping asi?",
+				"Kapan waktu untuk memberi mp asi?",
+				"Kapan waktu untuk memberi mpasi?",
+				"Kapan waktu yang tepat untuk memberi mp asi?",
+				"Kapan waktu yang tepat untuk memberi mpasi?",
+				"Kapan waktu yang tepat untuk memberi makanan pendamping asi?",
+				"Kapan mp asi dapat di berikan?",
+				"Kapan mpasi dapat di berikan?",
+				"Kapan makanan pendamping asi dapat diberikan?",
+				"Mp asi dapat diberikan kapan?",
+				"Mpasi dapat diberikan kapan?",
+				"Makanan pendamping asi dapat diberikan kapan?"
+                
+            ],
+            "responses":[
+                {
+                    "intro": "Rekomendasi memulai MPASI menurut World Health Organization (WHO) adalah saat bayi menginjak usia 6 bulan, atau bisa di antara 4-6 bulan sesuai dengan penilaian dokter atas kebutuhan dan kesiapan bayi menerima MPASI. berikut ini tanda kesiapan bayi untuk menerima MPASI antara lain:",
+                    "points": [
+                        "Kontrol kepala baik dari bayi, kepala bayi tetap tegak dan stabil saat bayi didudukkan.",
+                        "Reflek menjulurkan lidah dan gumoh sudah berkurang.",
+                        "Tertarik atau mencoba meraih makanan yang dimakan orang tua atau orang dewasa lain di sekitar bayi.",
+                        "Selera makan bayi meningkat, bayi tampak masih lapar meskipun sudah menyusui 10-12 kali/hari. "
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Komposisi MP-ASI",
+            "patterns":[
+                "Komposisi mpasi?",
+				"Komposisi mp asi?",
+				"Bagaimana komposisi mpasi?",
+				"Bagaimana komposisi mp asi?",
+				"Komposisi makanan pendamping asi?",
+				"Bagaimana komposisi makanan pendamping asi?",
+				"Apa saja mpasi?",
+				"Apa saja mp asi?",
+				"Apa saja makanan pendamping asi?",
+				"Seperti apa mpasi?",
+				"Seperti apa mp asi?",
+				"Seperti apa makanan pendamping asi?",
+				"Contoh mpasi?",
+				"Contoh mp asi?",
+				"Contoh makanan pendamping asi?",
+				"Mp asi itu apa saja?",
+				"Mpasi itu apa saja?",
+				"Makanan pendamping asi itu apa saja?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro":"Kandungan MPASI yang direkomendasikan adalah menu makanan yang mengandung gizi lengkap dan seimbang, berupa karbohidrat, protein, lemak, vitamin, dan mineral. Jenis karbohidrat untuk MPASI disesuaikan dengan kondisi lokal atau kebiasaan keluarga, misalnya nasi, pasta, jagung, dll. Protein yang diberikan terutama protein hewani seperti daging ayam, sapi, ikan, dll. Lemak tambahan dapat diberikan dari sumber seperti minyak kelapa, mentega, santan, dll."
+                        },
+                        {
+                            "intro": "Pemberian makan untuk anak usia 6-8 bulan:",
+                            "points": [
+                                "Makanan lumat 3-4 kali, mulai 2-3 sendok makan penuh setiap makan kemudian tingkatkan perlahan sampai 1/2 mangkuk berukuran 250 ml: Bubur, Ikan/ayam/telur/hati dihaluskan, Jus/pure buah.",
+                                "Snack selingan 1-kali: Biskuit/Buah lumat.",
+                                "ASI sesering mungkin."
+                            ]
+                        },
+                        {
+                            "intro": "Pemberian makan untuk anak usia 9-11 bulan:",
+                            "points": [
+                                "Makanan lembek 3-4 kali, 1/2 dengan 3/4 mangkuk berukuran 250 ml: Nasi tim saring/bubur, Ikan/ayam/telur/daging cincang, Sayur hijau, Jus/pure buah, Gunakan minyak/margarin atau santan dalam pengolahan makanan.",
+                                "Snack selingan 1-2 kali: Biskuit/Buah potong.",
+                                "ASI."
+                            ]
+                        },
+                                                {
+                            "intro": "Pemberian makan untuk anak usia 12-24 bulan:",
+                            "points": [
+                                "Makanan keluarga 3-4 kali: Nasi tim saring/bubur, Ikan/ayam/telur/daging, Sayur hijau, Tempe, Buah, Gunakan minyak/margarin atau santan dalam pengolahan makanan.",
+                                "Snack selingan 1-2 kali: Kue/buah, Bubur kacang hijau atau lainnya.",
+                                "ASI."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Syarat-Syarat_MP-ASI",
+            "patterns":[
+                "Syarat syarat mpasi?",
+				"Syarat syarat mp asi?",
+				"Syarat syarat makanan pendamping asi?",
+				"Syarat mp asi?",
+				"Syarat mpasi?",
+				"Syarat makanan pendamping asi?",
+				"Bagaimana syarat syarat mpasi?",
+				"Bagaimana syarat syarat mp asi?",
+				"Syarat syarat makanan pendamping asi?",
+				"Bagaimana syarat syarat makanan pendamping asi?",
+				"Apa saja syarat syarat mpasi?",
+				"Apa saja syarat syarat mp asi?",
+				"Apa saja syarat syarat makanan pendamping asi?",
+				"Seperti syarat syarat apa mpasi?",
+				"Seperti syarat syarat apa mp asi?",
+				"Seperti apa syarat syarat makanan pendamping asi?",
+				"Contoh syarat syarat mpasi?",
+				"Contoh syarat syarat  mp asi?",
+				"Contoh syarat syarat makanan pendamping asi?",
+				"Syarat syarat mp asi itu apa saja?",
+				"Syarat syarat mpasi itu apa saja?",
+				"Syarat syarat makanan pendamping asi itu apa saja?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut apa saja syarat-syarat MP-ASI:",
+                    "points": [
+                        "Bahan makanan mudah diperoleh yaitu bahan pangan lokal yang mudah diperoleh.",
+                        "Mudah diolah untuk memudahkan dalam proses memasak MP-ASI serta dapat menggunakan peralatan masak yang telah ada di rumah.",
+                        "Harga terjangkau. Bahan makanan yang akan diolah menjadi MP-ASI sebaiknya dari bahan makan yang harganya terjangkau.",
+                        "Dapat diterima dengan baik. MP-ASI yang diberikan haruslah dapat diterima dengan baik oleh si bayi. ",
+                        "Kandungan zat gizi memenuhi kecukupan gizi. Berikan MP-ASI yang bergizi. Variasikan menu MP-ASI setiap hari agar kebutuhan berbagai macam zat gizi dapat terpenuhi.",
+                        "Jenis MP-ASI disesuaikan dengan umur bayi.",
+                        "Bebas dari kuman penyakit, pengawet, pewarna, dan racun."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"1000_Hari_Pertama_Kehidupan",
+            "patterns":[
+                "1000 hari pertama kehidupan?",
+				"Apa itu 1000 hari pertama kehidupan?",
+				"Pengertian 1000 hari pertama kehidupan?",
+				"Apa yang dimaksud dengan 1000 hari pertama kehidupan?",
+				"1000 hari pertama kehidupan adalah?",
+				"Arti 1000 hari pertama kehidupan?",
+				"Arti dari 1000 hari pertama kehidupan?",
+				"1000 hari pertama kehidupan maksudnya apa?"
+            ],
+            "responses":[
+                "Periode 1000 hari pertama kehidupan (1000 HPK) adalah masa sejak konsepsi sampai anak berusia 2 tahun. Periode ini disebut juga “Periode Emas” karena pada masa ini pertumbuhan dan perkembangan otak sangat pesat, untuk itu semua kebutuhan dasar berupa asupan nutrisi, kasih sayang, stimulasi, imunisasi dan kebersihan harus terpenuhi. Kebutuhan yang tidak terpenuhi pada 1000 HPK akan menimbulkan dampak bersifat permanen yaitu terhambatnya pertumbuhan fisik, perkembangan mental, kecerdasan dan perilaku."
+            ]
+        },
+        {
+            "tag":"Hal-hal_1000_Hari_Pertama_Kehidupan",
+            "patterns":[
+                "Apa saja yang perlu dilakukan selama 1000 hari pertama kehidupan?",
+				"Apa saja yang dilakukan selama 1000 hari pertama kehidupan?",
+				"Dalam 1000 hari pertama kehidupan harus apa?",
+				"Dalam 1000 hari pertama kehidupan harus ngapain?",
+				"Apa yang dilakukan selama 1000 hari pertama kehidupan?",
+				"Apa yang harus dilakukan selama 1000 hari pertama kehidupan?",
+				"Apa saja yang harus dilakukan selama 1000 hari pertama kehidupan?",
+				"Hal apa yang harus dilakukan selama 1000 hari pertama kehidupan?",
+				"Selama 1000 hari pertama kehidupan apa yang harus dilakukan?",
+				"Selama 1000 hari pertama kehidupan apa yang perlu dilakukan?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut 9 pesan inti 1000 Hari Pertama Kehidupan, yaitu:",
+                    "points": [
+                        "Makan makanan yang beranekaragam selama hamil.",
+                        "Periksa kehamilan 4x.",
+                        "Minum tablet tambah darah.",
+                        "Inisiasi Menyusui Dini pada bayi baru lahir. ",
+                        "Berikan ASI eksklusif selama 6 bulan.",
+                        "Timbang BB bayi secara rutin tiap bulan.",
+                        "Berikan imunisasi dasar wajib bagi bayi.",
+                        "Lanjutkan pemberian ASI hingga berusia 2 tahun,",
+                        "Berikan MP-ASI secara bertahap mulai usia 6 bulan dengan tetap memberikan ASI."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pola_Makan_Ibu_Hamil",
+            "patterns":[
+                "Pola makan ibu hamil?",
+				"Pola makan ibu?",
+				"Apa itu pola makan ibu hamil?",
+				"Apa itu pola makan ibu?",
+				"Seperti apa pola makan ibu hamil?",
+				"Seperti apa pola makan ibu?",
+				"Bagaimana pola makan ibu hamil?",
+				"Bagaimana pola makan ibu?",
+				"Pola makan seperti apa yang harus dimiliki ibu hamil?",
+				"Pola makan seperti apa yang harus dimiliki ibu?",
+				"Apakah ada pola makan ibu hamil?",
+				"Apakah ada pola makan ibu?",
+				"Apa pedoman pola makan ibu hamil?",
+				"Apa pedoman pola makan ibu?",
+				"Bagaimana pedoman pola makan ibu hamil?",
+				"Bagaimana pedoman pola makan ibu?"
+            ],
+            "responses":[
+                {
+                    "intro": "Pola makan merupakan hal yang penting diperhatikan pada masa kehamilan, sebab apa yang dikonsumsi oleh ibu akan mempengaruhi janin di dalam kandungan. Oleh karena itu ibu hamil harus memiliki pola makan yang baik, seperti:",
+                    "points": [
+                        "Zat tenaga seperti beras, jagung, gandum, roti, dan mie yang mengandung karbohidrat serta minyak dan lemak.",
+                        "Zat pembangun untuk pertumbuhan dan mengganti jaringan yang rusak. Berasal dari protein hewani telur, ikan ayam dll, serta protein nabati tahu, tempe dan kacang-kacangan.",
+                        "Zat pengatur untuk mengatur semua fungsi tubuh dan melindungi tubuh dari penyakit. Terdapat pada sayur dan buah yang kaya akan vitamin dan mineral."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Kebutuhan_Gizi_Ibu_Hamil",
+            "patterns":[
+                "Kebutuhan gizi ibu hamil?",
+				"Seperti apa kebutuhan gizi ibu hamil?",
+				"Bagaimana kebutuhan gizi ibu hamil?",
+				"Apa saja kebutuhan gizi ibu hamil?",
+				"Kebutuhan gizi ibu hamil itu apa saja?",
+				"Apa kebutuhan gizi ibu hamil?",
+				"Kebutuhan gizi untuk ibu hamil?",
+				"Kebutuhan gizi pada ibu hamil?",
+				"Kebutuhan gizi apa saja untuk ibu hamil?"
+            ],
+            "responses":[
+                {
+                    "intro": "Gizi ibu hamil adalah makanan atau zat gizi (mikro dan makro) yang dibutuhkan oleh ibu hamil yang harus cukup jumlah, mutu dan kebutuhannya sehingga janin yang dikandungnya dapat tumbuh dengan baik dan tidak mengalami gangguan dan masalah. Adapun kebutuhan gizi ibu hamil adalah sebagai berikut:",
+                    "points": [
+                        "Energi: Energi merupakan faktor gizi yang paling penting jika dikaitkan dengan berat badan lahir bayi. Berdasarkan Angka Kecukupan Gizi (AKG), jumlah tambahan sebesar 180 kkal sehari pada trimester I, dan 300 kkal selama trimester II dan III. Berat badan akan bertambah sampai 12,5 kg selama hamil.",
+                        "Protein: Ibu hamil membutuhkan protein yang lebih banyak dari biasanya, paling sedikit 60 gram/hari. Hampir sekitar 70% protein digunakan untuk pertumbuhan janin. Protein juga berperan dalam pertumbuhan plasenta dan cairan amnion (air ketuban),apabila kebutuhan protein tidak mencukupi, maka pertumbuhan plasenta akan terhambat.",
+                        "Karbohidrat: Karbohidrat merupakan zat gizi yang paling berperan sebagai penyedia energi bagi ibu dan janin. Angka Kecukupan Gizi (AKG) merekomendasikan asupan karbohidrat selama hamil sekitar 349 gram per hari.",
+                        "Vitamin: Vitamin diperlukan untuk membantu metabolisme karbohidrat dan protein. Kebutuhan Vitamin A sebesar 800RE/hari berperan dalam penglihatan, serta Asam folat dibutuhkan untuk pembentukan sel darah merah dan sel darah putih dalam sumsum tulang dan kebutuhannya sebesar 600 ug/hari. Vitamin B12 sebesar 2,6 ug/hari diperlukan untuk mengubah folat menjadi bentuk aktif dan dalam fungsi normal metabolisme semua sel, terutama sel-sel saluran cerna, sumsum tulang, dan jaringan saraf.",
+                        "Mineral: Mineral berperan dalam pemeliharaan fungsi tubuh. Beberapa mineral penting untuk ibu hamil yaitu zat besi, kekurangan zat besi atau anemia zat besi pada ibu hamil berpengaruh pada ibu dan bayi, maka perlu suplementasi zat besi dengan dosis 30 mg/hari setelah usia kehamilan 12 minggu. Selain zat besi terdapat zat kapur, fosfor dan kalsium sangat penting untuk pertumbuhan tulang dan gigi anak. Seorang ibu hamil membutuhkan zat kapur tambahan 400 mg. Kebutuhan yodium 220 ug/hari baik untuk mencegah gangguan pertumbuhan dan keterbelakangan mental"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Masalah_Gizi_Ibu_Hamil",
+            "patterns":[
+                "Masalah gizi ibu hamil?",
+				"Masalah gizi pada ibu hamil?",
+				"Masalah gizi yang terjadi pada ibu hamil?",
+				"Apa itu masalah gizi ibu hamil?",
+				"Apa itu masalah gizi pada ibu hamil?",
+				"Apa itu masalah gizi yang terjadi pada ibu hamil?",
+				"Apa saja masalah gizi ibu hamil?",
+				"Apa saja masalah gizi yang terjadi padaibu hamil?",
+				"Apa masalah gizi yang terjadi pada ibu hamil?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut ini masalah gizi yang bisa terjadi pada ibu hamil:",
+                    "points": [
+                        "Kekurangan Energi Kronis: KEK merupakan keadaan kekurangan makanan yang berlangsung menahun (kronis) yang mengakibatkan timbulnya gangguan kesehatan. Pengukuran LILA dengan menggunakan pita LILA dengan ketelitian 0,1 cm dan ambang batas LILA WUS dengan resiko KEK di Indonesia adalah 23,5 cm. Apabila kurang dari 23,5 cm, artinya wanita tersebut mempunyai resiko KEK, dan diperkirakan akan melahirkan bayi dengan BBLR (Berat Bayi Lahir Rendah) yaitu < 2500 gram.",
+                        "Anemia: Ibu hamil umumnya mengalami kekurangan zat besi sehingga hanya memberi sedikit besi kepada janin. Anemia saat hamil yatu kadar hemogloblin (Hb) di bawah 11 gr% pada trimester I dan III, atau kadar < 10,5 gr% pada trimester II. Hindari makanan yang dapat menghambat penyerapan fe, yaitu Teh karena mengandung zat tanin, adapun zat gizi yang membantu penyerapan fe yaitu vitamin C seperti jeruk, jambu biji dll.",
+                        "Zat pengatur untuk mengatur semua fungsi tubuh dan melindungi tubuh dari penyakit. Terdapat pada sayur dan buah yang kaya akan vitamin dan mineral."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Menu_Ibu_Hamil",
+            "patterns":[
+                "Menu ibu hamil?",
+				"Menu untuk ibu hamil?",
+				"Makanan ibu hamil?",
+				"Makanan untuk ibu hamil?",
+				"Apa menu ibu hamil?",
+				"Apa menu untuk ibu hamil?",
+				"Apa makanan ibu hamil?",
+				"Apa makanan untuk ibu hamil?",
+				"Seperti apa menu ibu hamil?",
+				"Seperti apa menu untuk ibu hamil?",
+				"Seperti apa makanan ibu hamil?",
+				"Seperti apa makanan untuk ibu hamil?",
+				"Contoh makanan ibu hamil?",
+				"Contoh makanan untuk ibu hamil?",
+				"Contoh menu ibu hamil?",
+				"Contoh menu untuk ibu hamil?",
+				"Bagaimana menu ibu hamil?",
+				"Bagaimana menu untuk ibu hamil?",
+				"Bagaimana makanan ibu hamil?",
+				"Bagaimana makanan untuk ibu hamil?",
+				"Apa saja menu ibu hamil?",
+				"Apa saja menu untuk ibu hamil?",
+				"Apa saja makanan ibu hamil?",
+				"Apa saja makanan untuk ibu hamil?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro": "Berikut contoh menu yang bisa di ikutin untuk ibu yang sedang hamil:",
+                            "points": [
+                                "Pagi: Menu 1: Bubur ayam, susu, buah pepaya. Menu 2: Nasi, ayam bb kuning, pepes tahu, wortel.",
+                                "Jam 10.00: Menu 1: Kolak roti Menu 2: Bubur sumsum.",
+                                "Siang: Menu 1: Nasi, ayam goreng, balado tahu, bayam bening, buah jeruk. Menu 2: Nasi, sup sayuran, empal daging, kripik tempe, buah pepaya.",
+                                "Jam 16.00: Menu 1: Bubur kacang ijo. Menu 2: Salad buah.",
+                                "Malam: Menu 1: Nasi, pepes ikan, tempe bacem, brokoli, buah pisang. Menu 2: Nasi, telur balado, perkedel tahu, tumis tauge, buah jeruk.",
+                                "Jam 20.00: Susu."
+                            ]
+                        },
+                        {
+                            "intro": "Terdapat beberapa bahan makanan yang harus dibatasi ataupun dihindari saat hamil, yaitu konsumsi kafein pada kopi, makanan yang dimasak kurang matang seperti sate bakar, makanan yang menimbulkan banyak gas seperti kol, nangka, durian dll"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Kebutuhan_Gizi_Ibu_Menyusui",
+            "patterns":[
+                "Kebutuhan gizi ibu menyusui?",
+				"Seperti apa kebutuhan gizi ibu menyusui?",
+				"Bagaimana kebutuhan gizi ibu menyusui?",
+				"Apa saja kebutuhan gizi ibu menyusui?",
+				"Kebutuhan gizi ibu menyusui itu apa saja?",
+				"Apa kebutuhan gizi ibu menyusui?",
+				"Kebutuhan gizi untuk ibu menyusui?",
+				"Kebutuhan gizi pada ibu menyusui?",
+				"Kebutuhan gizi apa saja untuk ibu menyusui?"
+            ],
+            "responses":[
+                {
+                    "intro": "Konsumsi ibu menyusui memegang peranan penting yang dapat menentukan keberhasilan menyusui yang diukur dari durasi ASI eksklusif, status gizi bayi, dan status gizi ibu. Adapun kebutuhan gizi ibu menyusui adalah sebagai berikut:",
+                    "points": [
+                        "Energi: Penambahan kebutuhan energi ibu menyusui lebih banyak dibandingkan dengan ibu hamil, penambahan energi sebesar 500-700 kkal/hari. Kebutuhan energi sehari ibu menyusui menurut AKG 2013 yaitu 2250 kkal.",
+                        "Lemak: Lemak berperan sebagai sumber dan cadangan energi, pelarut vitamin A, D, E, dan K, juga berperan sebagai cadangan energi untuk menghasilkan ASI. Kebutuhan lemak sehari ibu menyusui menurut AKG 2013 11 - 13g/hari.",
+                        "Vitamin: Kebutuhan vitamin ibu menyusui meningkat dibandingkan ibu hamil. Kebutuhan vitamin A sebesar 850 RE/hari, kebutuhan vitamin D 15 ug/hari, vitamin B12 2,8 ug, asam folat sebesar 500 ug/hari.",
+                        "Mineral: Mineral berperan dalam pemeliharaan fungsi tubuh. Kebutuhan kalsium sebesar 1300 mg/hari, zat besi sebesar 32 - 34 mg/hari. Sumber zat besi berasal dari bahan pangan hewani maupun nabati, tetapi lebih banyak berasal dari hewani. Kebutuhan fosfor 700 mg/hari, kebutuhan yodium 250 ug/hari."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Menu_Ibu_Menyusui",
+            "patterns":[
+                "Menu ibu menyusui?",
+				"Menu untuk ibu menyusui?",
+				"Makanan ibu menyusui?",
+				"Makanan untuk ibu menyusui?",
+				"Apa menu ibu menyusui?",
+				"Apa menu untuk ibu menyusui?",
+				"Apa makanan ibu menyusui?",
+				"Apa makanan untuk ibu menyusui?",
+				"Seperti apa menu ibu menyusui?",
+				"Seperti apa menu untuk ibu menyusui?",
+				"Seperti apa makanan ibu menyusui?",
+				"Seperti apa makanan untuk ibu menyusui?",
+				"Contoh makanan ibu menyusui?",
+				"Contoh makanan untuk ibu menyusui?",
+				"Contoh menu ibu menyusui?",
+				"Contoh menu untuk ibu menyusui?",
+				"Bagaimana menu ibu menyusui?",
+				"Bagaimana menu untuk ibu menyusui?",
+				"Bagaimana makanan ibu menyusui?",
+				"Bagaimana makanan untuk ibu menyusui?",
+				"Apa saja menu ibu menyusui?",
+				"Apa saja menu untuk ibu menyusui?",
+				"Apa saja makanan ibu menyusui?",
+				"Apa saja makanan untuk ibu menyusui?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro": "Berikut contoh menu yang bisa di ikutin untuk ibu yang sedang menyusui:",
+                            "points": [
+                                "Pagi: Menu 1: Roti sandwich, susu. Menu 2: Nasi, semur daging, pecel sayuran.",
+                                "Jam 10.00: Menu 1: bubur kacang ijo, biskuit. Menu 2: Puding labu kuning, vla coklat.",
+                                "Siang: Menu 1: Nasi, ikan bakar, tempe kripik, sayur asem, buah pepaya. Menu 2: Nasi, telur dadar, tempe bacem, sayur bening labu, buah semangka.",
+                                "Jam 16.00: Menu 1: Kue talam, buah jeruk. Menu 2: Salad buah.",
+                                "Malam: Menu 1: Nasi, daging bumbu balado, tahu goreng, capcay sayuran, buah apel. Menu 2: Nasi, ayam bumbu kuning, tahu goreng, capcay kangkung, buah pisang, .",
+                                "Jam 20.00: Susu."
+                            ]
+                        },
+                        {
+                            "intro": "Kandungan makanan yang perlu dibatasi salah satunya yaitu kafein pada kopi, karena konsumsi kafein yang berlebihan (> 5 gelas / hari) dapat mengakibatkan bayi tidak tenang dan hiperaktif,"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Apakah_Stunting_Penyakit",
+            "patterns":[
+                "Apakah stunting penyakit?",
+				"Apakah stunting itu penyakit?",
+				"Apakah stunting termasuk penyakit?",
+				"Apakah stunting itu termasuk penyakit?",
+				"Apakah stunting tergolong penyakit?",
+				"Apakah stunting itu tergolong penyakit?",
+				"Stunting itu penyakit atau tidak?",
+				"Stunting penyakit atau tidak?",
+				"Stunting merupakan penyakit atau tidak?",
+				"Stunting itu merupakan penyakit atau tidak?",
+				"Apakah stunting masuk ke golongan penyakit?",
+				"Stunting termasuk penyakit?",
+				"Stunting termasuk penyakit atau tidak?",
+				"Apakah stunting termasuk penyakit?",
+				"Apakah stunting itu termasuk penyakit?",
+				"Apakah stunting termasuk sebuah penyakit?",
+				"Apakah stunting itu termasuk sebuah penyakit?",
+				"Stunting itu termasuk penyakit atau tidak?",
+				"Stunting termasuk penyakit atau tidak?"
+            ],
+            "responses":[
+                "Tidak, Stunting itu bukan penyakit, melainkan sebuah kondisi gagal tumbuh pada anak akibat kekurangan gizi kronis dan infeksi berulang, yang ditandai dengan tinggi badan anak yang tidak sesuai dengan usianya."
+            ]
+        },
+        {
+            "tag":"Pengertian_Imunisasi",
+            "patterns":[
+                "Pengertian imunisasi?",
+				"Pengertian dari imunisasi?",
+				"Apa imunisasi?",
+				"Apa itu imunisasi?",
+				"Apa arti imunisasi?",
+				"Apa arti dari imunisasi?",
+				"Apa yang dimaksud dengan imunisasi?",
+				"Apa itu yang dimaksud dengan imunisasi?",
+				"Imunisasi itu apa?",
+				"Imunisasi itu apa sih?",
+				"Apa sih imunisasi itu?",
+				"Arti dari imunisasi?",
+				"Arti imunisasi?",
+				"Imunisasi adalah?",
+				"Imunisasi ialah?",
+				"Imunisasi merupakan?",
+				"Imunisasi itu adalah?",
+				"Imunisasi itu ialah?",
+				"Imunisasi itu merupakan?",
+				"Maksud dari imunisasi?",
+				"Maksud imunisasi?"
+            ],
+            "responses":[
+                "Imunisasi adalah pemberian vaksin untuk melindungi tubuh atau membuat tubuh kebal terhadap penyakit tertentu. Vaksin terbuat dari kuman yang sudah melalui proses pelemahan atau bahkan dimatikan. Imunisasi dapat memberikan sistem kekebalan tubuh yang lebih kuat sehingga merangsang terbentuknya zat antibodi. Pemberian vaksin akan melindungi tubuh anak terhadap infeksi sejumlah penyakit menular di masa mendatang."
+            ]
+        },
+        {
+            "tag":"Tujuan_Imunisasi",
+            "patterns":[
+                "Tujuan imunisasi?",
+				"Tujuan dari imunisasi?",
+				"Tujuan pemberian imunisasi?",
+				"Tujuan melakukan imunisasi?",
+				"Tujuan memberikan imunisasi kepada anak?",
+				"Tujuan melakukan imunisasi kepada anak?",
+				"Apa tujuan imunisasi?",
+				"Apa tujuan dari imunisasi?",
+				"Apa tujuan pemberian imunisasi?",
+				"Apa tujuan melakukan imunisasi?",
+				"Apa tujuan memberikan imunisasi kepada anak?",
+				"Apa tujuan melakukan imunisasi kepada anak?",
+				"Apakah tujuan imunisasi?",
+				"Apakah tujuan dari imunisasi?",
+				"Apakah tujuan pemberian imunisasi?",
+				"Apakah tujuan melakukan imunisasi?",
+				"Apakah tujuan memberikan imunisasi kepada anak?",
+				"Apakah tujuan melakukan imunisasi kepada anak?",
+				"Mengapa wajib melakukan imunisasi?",
+				"Kenapa wajib melakukan imunisasi?",
+				"Kenapa harus imunisasi?"
+            ],
+            "responses":[
+                "Tujuan dari pemberian imunisasi adalah meningkatkan kekebalan tubuh anak secara aktif terhadap suatu penyakit, serta menurunkan angka kesakitan dan kematian bayi akibat penyakit berbahaya. Selain bertujuan untuk meningkatkan sistem kekebalan tubuh anak terhadap penyakit tertentu, imunisasi juga bermanfaat untuk masyarakat umum. Ketika anak-anak mendapatkan imunisasi, maka tubuhnya terlindungi sekaligus melindungi kesehatan masyarakat umum secara keseluruhan."
+            ]
+        },
+        {
+            "tag":"Manfaat_Imunisasi",
+            "patterns":[
+                "Manfaat imunisasi?",
+				"Manfaat dari imunisasi?",
+				"Manfaat pemberian imunisasi?",
+				"Manfaat melakukan imunisasi?",
+				"Manfaat memberikan imunisasi kepada anak?",
+				"Manfaat melakukan imunisasi kepada anak?",
+				"Apa manfaat imunisasi?",
+				"Apa manfaat dari imunisasi?",
+				"Apa manfaat pemberian imunisasi?",
+				"Apa manfaat melakukan imunisasi?",
+				"Apa manfaat memberikan imunisasi kepada anak?",
+				"Apa manfaat melakukan imunisasi kepada anak?",
+				"Apakah manfaat imunisasi?",
+				"Apakah manfaat dari imunisasi?",
+				"Apakah manfaat pemberian imunisasi?",
+				"Apakah manfaat melakukan imunisasi?",
+				"Apakah manfaat memberikan imunisasi kepada anak?",
+				"Apakah manfaat melakukan imunisasi kepada anak?",
+				"Manfaat imunisasi apa?"
+            ],
+            "responses":[
+                {
+                    "intro": "Manfaat imunisasi sangat baik untuk tumbuh kembang anak. Berikut berbagai manfaat imunisasi untuk anak:",
+                    "points": [
+                        "Imunisasi dapat menyelamatkan hidup anak di kemudian hari.",
+                        "Sangat aman dan efektif dalam mencegah penyakit tertentu.",
+                        "Melindungi orang lain yang kamu sayangi.",
+                        "Menghemat waktu dan uang. Sebab, waktu dan uang yang dikeluarkan untuk mengobati akan lebih banyak dibandingkan mencegahnya.",
+                        "Melindungi kesehatan generasi berikutnya."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Imunisasi_Wajib",
+            "patterns":[
+                "Imunisasi wajib?",
+				"Apa saja imunisasi?",
+				"Apa imunisasi yang perlu diberikan kepada anak?",
+				"Apa imunisasi yang diberikan kepada anak?",
+				"Apa saja imunisasi yang diberikan kepada anak?",
+				"Apa saja imunisasi yang perlu diberikan kepada anak?",
+				"Apa saja jenis imunisasi yang diberikan kepada anak?",
+				"Apa jenis imunisasi yang diberikan kepada anak?",
+				"Apa saja jenis imunisasi yang perlu diberikan kepada anak?",
+				"Apa jenis imunisasi yang perlu diberikan kepada anak?",
+				"Apa imunisasi yang perlu diberikan?",
+				"Apa imunisasi yang diberikan?",
+				"Apa saja imunisasi yang diberikan?",
+				"Apa saja imunisasi yang perlu diberikan?",
+				"Apa saja jenis imunisasi yang diberikan?",
+				"Apa jenis imunisasi yang diberikan?",
+				"Apa saja jenis imunisasi yang perlu diberikan?",
+				"Apa jenis imunisasi yang perlu diberikan?",
+				"Apa apa saja imuniasasi?",
+				"Apa apa saja imunisasi yang diberikan kepada anak?",
+				"Apa apa saja imunisasi yang perlu diberikan kepada anak?",
+				"Apa apa saja imunisasi yang diberikan?",
+				"Apa apa saja imunisasi yang perlu diberikan?",
+				"Imunisasi yang diberikan kepada anak?",
+				"Imunisasi yang perlu diberikan kepada anak?",
+				"Imunisasi yang harus diberikan kepada anak?",
+				"Imunisasi yang diberikan?",
+				"Imunisasi yang perlu diberikan?",
+				"Imunisasi yang harus diberikan?",
+				"Macam macam imunisasi yang diberikan kepada anak?",
+				"Macam macam imunisasi yang perlu diberikan kepada anak?",
+				"Macam macam imunisasi yang harus diberikan kepada anak?",
+				"Macam macam imunisasi yang wajib diberikan kepada anak?",
+				"Macam macam imunisasi yang diberikan?",
+				"Macam macam imunisasi yang perlu diberikan?",
+				"Macam macam imunisasi yang harus diberikan?",
+				"Macam macam imunisasi yang wajib diberikan?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro": "Imunisasi Wajib",
+                            "points": [
+                                "BCG (Bacille Calmette-Guérin): Untuk  mencegah penyakit tuberkulosis atau TB (bukan lagi disingkat TBC), yaitu infeksi yang disebabkan bakteri Mycobacterium Tuberculosis. Waktu pemberian: saat bayi baru lahir.",
+                                "Hepatitis B: Melindungi tubuh dari virus Hepatitis B, yang bisa menyebabkan kerusakan pada hati. Waktu pemberian: Dalam waktu 12 jam setelah lahir, dilanjutkan pada umur 2 bulan, lalu saat 3 dan 4 bulan.",
+                                "Polio: Melindungi tubuh terhadap virus polio, yang menyebabkan kelumpuhan. Waktu pemberian: saat kunjungan pertama setelah lahir. Selanjutnya, vaksin ini diberikan tiga kali, yakni saat bayi berumur 2, 3, dan 4 bulan, lalu harus diulang (boost) pada usia 18 bulan.",
+                                "DTP (Diphteria, Tetanus, Pertusis): Mencegah tiga jenis penyakit sekaligus yakni difteri (infeksi saluran pernapasan yang disebabkan  bakteri), tetanus (infeksi bakteri pada bagian tubuh yang terluka), dan pertusis (batuk rejan). Waktu pemberian: saat bayi berumur 2 bulan. Pengulangan diberikan umur 3 dan 4 bulan, lalu diulang pada usia 18 bulan dan 5 tahun. Pada usia 10-12 tahun, vaksin ini diberikan lagi, biasanya di sekolah.",
+                                "Campak: Melindungi anak dari penyakit campak yang disebabkan virus. Waktu pemberian: saat anak umur 9 bulan, lalu SD kelas 1 (6 tahun). Jika belum mendapat vaksin campak pada umur 9 bulan, bisa diberikan vaksin kombinasi dengan gondongan dan campak Jerman (MMR atau Measles, Mumps, Rubella) di usia 15 bulan. Saat ini Pemerintah sudah menyediakan vaksin baru, yaitu MR (Measles – Rubella) yang dapat diberikan sejak usia 9 bulan dan diberikan di sekolah-sekolah dan posyandu."
+                            ]
+                        },
+                        {
+                            "intro": "Imunisasi Tambahan",
+                            "points": [
+                                "HIB: Melindungi tubuh dari virus Haemophilus influenza type B, yang bisa menyebabkan meningitis, pneumonia, dan epiglotitis (infeksi pada katup pita suara dan tabung suara). Waktu pemberian: umur 2, 3, 4 bulan, lalu diulang pada usia 15-18 bulan.",
+                                "Pneumokokus (PCV): Melindungi tubuh dari bakteri pnemukokus yang bisa menyebabkan meningitis, pneumonia, dan infeksi telinga. Waktu pemberian: umur 2, 4, 6 bulan, serta antara 12 - 15 bulan. Jika usia anak sudah 2 - 5 tahun, PCV hanya diberikan 1 kali.",
+                                "Influenza: Melindungi tubuh dari beberapa jenis virus influenza. Waktu pemberian: Setahun sekali sejak usia 6 bulan. Bisa terus diberikan hingga dewasa.",
+                                "MMR (Measles, Mumps, Rubella): Melindungi tubuh dari virus campak, gondok, dan rubella (campak Jerman). Waktu pemberian: usia 15 bulan, dan diulang saat anak berusia 5 tahun.",
+                                "Tifoid: Melindungi tubuh dari bakteri Salmonella typhi yang menyebabkan demam tifoid (tifus). Waktu pemberian: di atas 2 tahun, dan diulang setiap 3 tahun.",
+                                "Hepatitis A: Melindungi tubuh dari virus Hepatitis A, yang menyebabkan penyakit hati. Waktu pemberian: di atas 2 tahun, dua kali dengan interval 6 - 12 bulan.",
+                                "Varisela: Melindungi tubuh dari cacar air Waktu pemberian: di atas 12 bulan.",
+                                "HPV (Humanpapilloma Virus): Melindungi tubuh dari Humanpapilloma Virus yang menyebabkan kanker mulut rahim. Waktu pemberian: di atas 10 tahun, diberikan 2 -3 kali dengan jadwal 0, 1-2 bulan kemudian, serta 6 bulan kemudian."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Antibodi",
+            "patterns":[
+                "Peran antibodi?",
+				"Apa peran antibodi bagi stunting?",
+				"Apa antibodi bisa mencegah stunting?",
+				"Apa itu antibodi?",
+				"Antibodi itu apa?",
+				"Apakah antibodi penting bagi anak?",
+				"Apakah antibodi ada hubungan nya dengan stunting?",
+				"Apa stunting bisa dicegah dengan antibodi?",
+				"Untuk apa antibodi?",
+				"Mengapa antibodi penting?",
+				"Apa peran antibodi?",
+				"Apa hubungan antibodi dengan stunting?",
+				"Antibodi untuk apa?",
+				"Antibodi itu untuk apa?",
+				"Mengapa antibodi diperlukan?"
+            ],
+            "responses":[
+                "Antibodi adalah zat kimia yang beredar di aliran darah dan termasuk dalam bagian dari sistem imunitas atau kekebalan tubuh. Peran antibodi adalah melindungi anak dari infeksi yang dapat mengganggu pertumbuhan dan penyerapan nutrisi, yang pada akhirnya dapat menyebabkan stunting. Oleh karena itu, memastikan asupan nutrisi yang cukup, pemberian ASI eksklusif, dan imunisasi yang lengkap adalah cara penting untuk meningkatkan kadar antibodi dan mencegah stunting."
+            ]
+        },
+        {
+            "tag":"Tujuan_Antibodi",
+            "patterns":[
+                "Tujuan antibodi?",
+				"Apa tujuan antibodi?",
+				"Apa itu tujuan antobodi?",
+				"Tujuan antibodi apa?",
+				"Tujuan antibodi apa saja?",
+				"Apa saja tujuan antibodi?",
+				"Apa tujuan dari antibodi?",
+				"Tujuan dari antibodi?",
+				"Antibodi berguna untuk?",
+				"Antibodi berguna untuk apa?",
+				"Manfaat antibodi?",
+				"Manfaat antibodi apa?",
+				"Guna antibodi apa?",
+				"Apa manfaat dari antibodi?",
+				"Apa manfaat antibodi?",
+				"Antibodi bertujuan untuk?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut tujuan dari antibodi:",
+                    "points": [
+                        "Mencegah infeksi:  Antibodi bekerja dengan mengenali dan melawan patogen (seperti bakteri dan virus) yang masuk ke dalam tubuh, sehingga anak tidak mudah sakit.",
+                        "Menjaga penyerapan nutrisi: Infeksi, terutama infeksi saluran pencernaan, dapat menyebabkan gangguan penyerapan nutrisi. Dengan mencegah infeksi, antibodi membantu memastikan nutrisi yang masuk dapat diserap dengan baik untuk pertumbuhan.",
+                        "Mengurangi penggunaan nutrisi untuk melawan infeksi: Jika tubuh anak terinfeksi, sumber daya nutrisi yang seharusnya digunakan untuk tumbuh dan berkembang akan dipakai untuk melawan penyakit. Antibodi membantu mengurangi risiko infeksi, sehingga tubuh dapat fokus pada pertumbuhan.",
+                        "Memperkuat sistem imun secara keseluruhan: Protein berperan dalam pembentukan antibodi dan memperkuat sistem imun."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Sumber_Antibodi",
+            "patterns":[
+                "Sumber antibodi?",
+				"Sumber antibodi apa?",
+				"Sumber antibodi untuk anak?",
+				"Sumber antibodi untuk ibu hamil?",
+				"Sumber antibodi untuk anak apa?",
+				"Darimana mendapatkan antibodi?",
+				"Sumber antibodi untuk ibu?",
+				"Darimana mendapatkan antibodi untuk ibu hamil?",
+				"Darimana mendapatkan antibodi untuk anak?",
+				"Darimana mendapatkan antibodi untuk ibu?",
+				"Bagaimana mendapatkan antibodi?",
+				"Cara mendapatkan antibodi?"
+            ],
+            "responses":[
+                {
+                    "intro": "Antibodi bisa didapatkan melalui:",
+                    "points": [
+                        "ASI: Air Susu Ibu (ASI) adalah sumber antibodi yang sangat penting bagi bayi.",
+                        "Protein: Tubuh memproduksi antibodi dengan bantuan protein. Ibu yang mengonsumsi protein yang cukup selama kehamilan dapat menghasilkan antibodi yang melindungi janin, sedangkan anak yang mendapatkan cukup protein dari makanan akan memiliki sistem kekebalan tubuh yang lebih kuat."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Peran Protein",
+            "patterns":[
+                "Peran protein?",
+				"Apa peran protein bagi stunting?",
+				"Apa protein bisa mencegah stunting?",
+				"Apa itu protein?",
+				"Protein itu apa?",
+				"Apakah protein penting bagi anak?",
+				"Apakah protein ada hubungan nya dengan stunting?",
+				"Apa stunting bisa dicegah dengan protein?",
+				"Untuk apa protein?",
+				"Mengapa protein penting?",
+				"Apa peran protein?",
+				"Apa hubungan protein dengan stunting?",
+				"Protein untuk apa?",
+				"Protein itu untuk apa?",
+				"Mengapa protein diperlukan?",
+				"Apakah stunting bisa dicegah dengan protein?"
+            ],
+            "responses":[
+                "Protein adalah instrumen gizi yang dibutuhkan oleh ibu hamil guna mencegah stunting pada anak, hal ini dikarenakan pangan mempunyai kandungan zat gizi yang lengkap, kaya protein dan vitamin yang sangat penting dalam mendukung pertumbuhan dan perkembangan. Kekurangan protein dalam diet anak-anak dapat menyebabkan stunting karena tubuh mereka tidak memiliki bahan bakar yang cukup untuk tumbuh dengan baik. Oleh karena itu, memastikan anak-anak mendapatkan asupan protein yang cukup dapat membantu mencegah stunting dan mendukung pertumbuhan yang optimal."
+            ]
+        },
+        {
+            "tag":"Manfaat Protein",
+            "patterns":[
+                "Tujuan protein?",
+				"Apa tujuan protein?",
+				"Apa itu tujuan protein?",
+				"Tujuan protein apa?",
+				"Tujuan protein apa saja?",
+				"Apa saja tujuan protein?",
+				"Apa tujuan dari protein?",
+				"Tujuan dari protein?",
+				"Protein berguna untuk?",
+				"Protein berguna untuk apa?",
+				"Manfaat protein?",
+				"Manfaat protein apa?",
+				"Guna protein apa?",
+				"Apa manfaat dari protein?",
+				"Apa manfaat protein?",
+				"Protein bertujuan untuk?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut ini adalah berbagai manfaat dan fungsi protein bagi tubuh:",
+                    "points": [
+                        "Sumber Energi.",
+                        "Membangun dan membentuk jaringa tubuh.",
+                        "Membentuk anibodi.",
+                        "Memicu reaksi biokimia.",
+                        "Mengirim sinyal ke tubuh."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Sumber_Protein",
+            "patterns":[
+                "Sumber protein?",
+				"Sumber protein apa?",
+				"Sumber protein untuk anak?",
+				"Sumber protein untuk ibu hamil?",
+				"Sumber protein untuk anak apa?",
+				"Darimana mendapatkan protein?",
+				"Sumber protein untuk ibu?",
+				"Darimana mendapatkan protein untuk ibu hamil?",
+				"Darimana mendapatkan protein untuk anak?",
+				"Darimana mendapatkan protein untuk ibu?",
+				"Bagaimana mendapatkan protein?",
+				"Cara mendapatkan protein?"
+            ],
+            "responses":[
+                "Untuk mendapatkan asupan protein yang cukup, disarankan untuk mengonsumsi makanan tinggi protein, baik dari sumber nabati maupun hewani. Protein hewani bisa didapatkan dari aneka jenis boga bahari yang juga kaya akan omega 3 dan 6, daging ayam tanpa lemak, telur, daging sapi tanpa lemak, hingga produk olahan susu seperti keju dan yoghurt. Sementara itu, sumber protein nabati adalah kedelai, dan kacang polong. Selain itu, bisa juga mengonsumsi susu tinggi protein untuk membantu memenuhi kebutuhan protein harian."
+            ]
+        },
+        {
+            "tag":"Pola_Makan_Anak",
+            "patterns":[
+                "Pola makan anak?",
+				"Pola makan bayi?",
+				"Apa itu pola makan anak?",
+				"Apa itu pola makan bayi?",
+				"Seperti apa pola makan anak?",
+				"Seperti apa pola makan bayi?",
+				"Bagaimana pola makan anak?",
+				"Bagaimana pola makan bayi?",
+				"Pola makan seperti apa yang harus dimiliki anak?",
+				"Pola makan seperti apa yang harus dimiliki bayi?",
+				"Apakah ada pola makan anak?",
+				"Apakah ada pola makan bayi?",
+				"Apa pedoman pola makan anak?",
+				"Apa pedoman pola makan bayi?",
+				"Bagaimana pedoman pola makan anak?",
+				"Bagaimana pedoman pola makan bayi?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro": "1. Panduan Gizi untuk Anak Usia 0-6 Bulan",
+                            "points": [
+                                "Frekuensi Menyusui: Sekitar 8-12 kali per hari sesuai kebutuhan bayi.",
+                                "Manfaat ASI: Mengandung zat gizi esensial, seperti protein, lemak, karbohidrat, serta vitamin dan mineral, yang mendukung pertumbuhan fisik dan perkembangan otak."
+                            ]
+                        },
+                        {
+                            "intro": "2. Panduan Gizi untuk Anak Usia 6-12 Bulan:",
+                            "points": [
+                                "Karbohidrat: Bubur nasi, kentang, ubi, jagung, atau sereal bayi.",
+                                "Protein: Daging ayam, daging sapi, ikan (pastikan tidak ada duri), tahu, tempe, telur (bagian kuning telur diberikan secara bertahap)",
+                                "Sayur-sayuran: Bayam, wortel, labu, brokoli, yang dihaluskan atau dipotong kecil.",
+                                "Buah-buahan: Pisang, pepaya, alpukat, apel, dan pir yang telah dihaluskan.",
+                                "Lemak Sehat: Minyak zaitun atau mentega dapat ditambahkan dalam makanan bayi untuk tambahan kalori."
+                            ]
+                        },
+                        {
+                            "intro": "Porsi dan Frekuensi:",
+                            "points": [
+                                "Pemberian MP-ASI: 2-3 kali sehari ditambah 1-2 kali camilan.",
+                                "Porsi: Dimulai dengan 2-3 sendok makan per pemberian, kemudian ditingkatkan secara bertahap sesuai kemampuan bayi."
+                            ]
+                        },
+                        {
+                            "intro": "3. Panduan Gizi untuk Anak Usia 6-12 Bulan:",
+                            "points": [
+                                "Karbohidrat: Nasi lembek, bubur, roti, kentang, atau pasta.",
+                                "Protein Hewani dan Nabati: Daging ayam, ikan, daging sapi tanpa lemak. Tahu, tempe, kacang-kacangan, dan telur.",
+                                "Sayuran dan Buah-buahan: Sayur seperti wortel, bayam, brokoli, buncis, dan tomat.",
+                                "Buah-buahan: Pisang, pepaya, alpukat, apel, dan pir yang telah dihaluskan.",
+                                "Susu dan Produk Olahan Susu: Susu sapi, yoghurt, atau keju dalam porsi kecil.",
+                                "Lemak Sehat: Minyak zaitun atau minyak kelapa untuk memasak, atau mentega."
+                            ]
+                        },
+                        {
+                            "intro": "Porsi dan Frekuensi:",
+                            "points": [
+                                "3 kali makan utama dan 2 kali camilan sehat per hari.",
+                                "Setiap porsi makanan padat sekitar 1/2 mangkuk kecil untuk nasi, dan 3-4 sendok makan untuk lauk-pauk."
+                            ]
+                        },
+                        {
+                            "intro": "4. Panduan Gizi untuk Anak Usia 2-5 Tahun:",
+                            "points": [
+                                "Karbohidrat: Nasi, roti gandum, kentang, pasta, atau mi.",
+                                "Protein: Daging tanpa lemak, ikan, telur, tahu, tempe, dan kacang-kacangan. Anak-anak pada usia ini membutuhkan sekitar 13 gram protein per hari.",
+                                "Buah dan Sayur: Pastikan anak mengonsumsi minimal 5 porsi buah dan sayur setiap hari.",
+                                "Produk Olahan Susu: Susu, yoghurt, dan keju. Susu sangat penting untuk kalsium, namun batasi jumlahnya menjadi dua gelas sehari untuk menghindari kelebihan kalori.",
+                                "Lemak Sehat: Gunakan minyak zaitun atau minyak kelapa sebagai sumber lemak sehat."
+                            ]
+                        },
+                        {
+                            "intro": "Porsi dan Frekuensi:",
+                            "points": [
+                                "3 kali makan utama yang seimbang dan 2 kali camilan sehat.",
+                                "Porsi karbohidrat sekitar 1 mangkuk nasi, dengan 1 potong daging (sekitar 30-50 gram), dan sayur secukupnya.",
+                                "Berikan camilan berupa buah-buahan segar, yoghurt, atau roti gandum dengan selai kacang."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Sulit_Makan",
+            "patterns":[
+                "Sulit makan",
+				"Sulit untuk makan",
+				"Mengapa anak sulit makan?",
+				"Mengapa anak sulit untuk makan?",
+				"Mengapa anak sangat sulit untuk makan?",
+				"Mengapa anak sangat sulit makan?",
+				"Kenapa anak sulit makan?",
+				"Kenapa anak sangat sulit untuk makan?",
+				"Kenapa anak sangat sulit makan?",
+				"Apa yang menyebabkan sulit makan?",
+				"Apa yang menyebabkan sulit untuk makan?",
+				"Apa yang menyebabkan anak sulit makan?",
+				"Apa yang menyebabkan anak sulit untuk makan?",
+				"Apa yang membuat sulit makan?",
+				"Apa yang membuat sulit untuk makan?",
+				"Apa yang membuat anak sulit makan?",
+				"Apa yang membuat anak sulit untuk makan?",
+				"Penyebab sulit makan?",
+				"Penyebab sulit untuk makan?",
+				"Penyebab anak sulit makan?",
+				"Penyebab anak sulit untuk makan?",
+				"Apa penyebab sulit makan?",
+				"Apa penyebab sulit untuk makan?",
+				"Apa penyebab anak sulit makan?",
+				"Apa penyebab anak sulit untuk makan?"
+            ],
+            "responses":[
+                {
+                    "intro": "Menghadapi anak susah makan memang diperlukan kesabaran dan strategi tersendiri. Oleh karena itu, penting bagi setiap orang tua untuk memahami penyebab anak susah makan dan cara mengatasinya sehingga kebutuhan nutrisi anak tetap terpenuhi. Berikut ini adalah beberapa penyebab anak susah makan:",
+                    "points": [
+                        "Menolak makan.",
+                        "Hanya memakan makanan tertentu.",
+                        "Hanya mau makanan cepat saji.",
+                        "Tidak mau makan setelah kemarin banyak makan.",
+                        "Makan satu jenis makanan saja.",
+                        "Tidak mau makan makanan favorit secara tiba-tiba."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Mengatasi_Sulit_Makan",
+            "patterns":[
+                "Mengatasi sulit makan",
+				"Bagaimana mengatasi sulit makan?",
+				"Cara mengatasi sulit makan?",
+				"Bagaimana cara mengatasi sulit makan?",
+				"Cara agar anak tidak sulit makan?",
+				"Cara supaya anak tidak sulit makan?",
+				"Mengatasi sulit untuk makan?",
+				"Bagaimana mengatasi sulit untuk makan?",
+				"Cara mengatasi sulit untuk makan?",
+				"Bagaimana cara mengatasi sulit untuk makan?",
+				"Cara agar anak tidak sulit untuk makan?",
+				"Cara supaya anak tidak sulit untuk makan?",
+				"Bagaimana cara agar anak tidak sulit makan?",
+				"Bagaimana cara supaya anak tidak sulit makan?",
+				"Bagaimana cara agar anak tidak sulit makan?",
+				"Bagaimana cara agar anak tidak sulit untuk makan?",
+				"Bagaimana cara supaya anak tidak sulit untuk makan?",
+				"Bagaimana cara agar anak tidak sulit untuk makan?",
+				"Cara mengatasi anak yang sulit makan?",
+				"Cara mengatasi anak yang sulit untuk makan?"
+            ],
+            "responses":[
+                {
+                    "intro": "Hampir semua orang tua pasti pernah mengalami anak yang susah makan. Sebelum akhirnya stres dan marah-marah sendiri, nah untuk mengatasi nya, berikut beberapa cara untuk mengatasi anak yang sulit makan:",
+                    "points": [
+                        "Coba untuk lebih bersabar dan jangan memaksa anak untuk makan.",
+                        "Perkenalkan berbagai jenis makanan secara perlahan kepada anak yang susah makan.",
+                        "Hindari menyimpan makanan cepat saji di rumah. ",
+                        "Sajikan porsi makanan yang sesuai.",
+                        "Pilih jadwal yang tepat.",
+                        "Pastikan suasana hatinya baik.",
+                        "Libatkan anak dalam mempersiapkan makan.",
+                        "Kurangi kudapan.",
+                        "Pahami gaya makan anak."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Peran_Keluarga",
+            "patterns":[
+                "Peran keluarga?",
+				"Apa peran keluarga?",
+				"Apa saja peran keluarga?",
+				"Apa peran keluarga untuk mengurangi stunting?",
+				"Apa peran keluarga untuk mencegah stunting?",
+				"Apa peran keluarga agar mengurangi stunting?",
+				"Apa peran keluarga agar mencegah stunting?",
+				"Apa peran keluarga agar anak tidak stunting?",
+				"Apa peran keluarga supaya anak tidak stunting?",
+				"Bagaimana peran keluarga agar anak tidak stunting?",
+				"Bagaimana peran keluarga agar mengurangi stunting?",
+				"Bagaimana peran keluarga agar mencegah stunting?",
+				"Apa saja peran keluarga untuk mengurangi stunting?",
+				"Apa saja peran keluarga untuk mencegah stunting?",
+				"Apa saja peran keluarga agar mengurangi stunting?",
+				"Apa saja peran keluarga agar mencegah stunting?",
+				"Apa saja peran keluarga agar anak tidak stunting?",
+				"Apa saja peran keluarga supaya anak tidak stunting?"
+            ],
+            "responses":[
+                {
+                    "intro": "Mencegah stunting harus dimulai dari titik terdalam, yaitu keluarga. Karena keluarga jadi yang pertama kali mengetahui kondisi janin, bayi, maupun balitanya. Berikut beberapa peran keluarga bagi anak:",
+                    "points": [
+                        "Mengembangkan karakter anak.",
+                        "Berpartisipasi dalam perkembangan kognitif anak.",
+                        "Berpartisipasi dalam perkembangan sosial anak.",
+                        "Berpartisipasi dalam perkembangan moral anak.",
+                        "Dukung ibu untuk pemeriksaan kehamilan secara rutin.",
+                        "Menyediakan lingkungan atau tempat tinggal yang aman dan layak untuk anak.",
+                        "Menerapkan pengasuhan yang dapat memenuhi kebutuhan psikologis anak.",
+                        "Mencukup gizi ibu saat hamil dan menyusui, dan gizi anak.",
+                        "Melakukan pemantauan pertumbuhan dan perkembangan anak secara rutin ."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Peran_Masyarakat",
+            "patterns":[
+                "Peran masyarakat?",
+				"Apa peran masyarakat?",
+				"Apa saja peran masyarakat?",
+				"Apa peran masyarakat untuk mengurangi stunting?",
+				"Apa peran masyarakat untuk mencegah stunting?",
+				"Apa peran masyarakat agar mengurangi stunting?",
+				"Apa peran masyarakat agar mencegah stunting?",
+				"Apa peran masyarakat agar anak tidak stunting?",
+				"Apa peran masyarakat supaya anak tidak stunting?",
+				"Bagaimana peran masyarakat agar anak tidak stunting?",
+				"Bagaimana peran masyarakat agar mengurangi stunting?",
+				"Bagaimana peran masyarakat agar mencegah stunting?",
+				"Apa saja peran masyarakat untuk mengurangi stunting?",
+				"Apa saja peran masyarakat untuk mencegah stunting?",
+				"Apa saja peran masyarakat agar mengurangi stunting?",
+				"Apa saja peran masyarakat agar mencegah stunting?",
+				"Apa saja peran masyarakat agar anak tidak stunting?",
+				"Apa saja peran masyarakat supaya anak tidak stunting?"
+            ],
+            "responses":[
+                {
+                    "intro": "Peranan dari masyarakat tentunya menjadi pondasi penting dalam pencegahan stunting. Melalui kesadaran diri, edukasi, pemberdayaan dan tindakan nyata dalam kehidupan sehari-hari. Beberapa hal  yang  dapat  dilakukan  masyarakat  untuk  menciptakan  perubahan  yang  positif dalam mencegah stunting adalah:",
+                    "points": [
+                        "Memiliki edukasi atau pengetahuan yang cukup.",
+                        "Pemberdayaan masyarakat.",
+                        "Peningkatan akses terhadap layanan kesehatan.",
+                        "Pemberdayaan perempuan"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Peran_Pemerintah",
+            "patterns":[
+                "Peran pemerintah?",
+				"Apa peran pemerintah?",
+				"Apa saja peran pemerintah?",
+				"Apa peran pemerintah untuk mengurangi stunting?",
+				"Apa peran pemerintah untuk mencegah stunting?",
+				"Apa peran pemerintah agar mengurangi stunting?",
+				"Apa peran pemerintah agar mencegah stunting?",
+				"Apa peran pemerintah agar anak tidak stunting?",
+				"Apa peran pemerintah supaya anak tidak stunting?",
+				"Bagaimana peran pemerintah agar anak tidak stunting?",
+				"Bagaimana peran pemerintah agar mengurangi stunting?",
+				"Bagaimana peran pemerintah agar mencegah stunting?",
+				"Apa saja peran pemerintah untuk mengurangi stunting?",
+				"Apa saja peran pemerintah untuk mencegah stunting?",
+				"Apa saja peran pemerintah agar mengurangi stunting?",
+				"Apa saja peran pemerintah agar mencegah stunting?",
+				"Apa saja peran pemerintah agar anak tidak stunting?",
+				"Apa saja peran pemerintah supaya anak tidak stunting?"
+            ],
+            "responses":[
+                {
+                    "intro": "Dalam penanganan dan pencegahan stunting, peran pemerintah daerah yang dapat dilakukan pada berbagai tingkatan pemerintahan antara lain:",
+                    "points": [
+                        "Tingkat Provinsi. Koordinasi pencegahan stunting dilaksanakan setiap tiga bulan sekali menggunakan forum yang sudah ada, seperti Tim Rencana Aksi Daerah Pangan dan Gizi (RAD PG) dan Tim Koordinasi Penanggulangan Kemiskinan Daerah (TKPKD).",
+                        "Tingkat Kabupaten/Kota. Pemerintah Kabupaten/Kota memainkan peranan penting dalam pencegahan stunting, diantaranya memastikan pemenuhan SDM untuk intervensi gizi, kapasitas SDM, anggaran, dukungan logistik serta kemitraan. Selain itu, kabupaten dan kota diharapkan dapat melakukan pembinaan dan pendampingan pada kecamatan maupun desa di wilayahnya.",
+                        "Tingkat Kecamatan. Camat dapat melakukan pertemuan secara berkala untuk melakukan pemantauan kondisi stunting di tingkat desa, sehingga perencanaan dan penyelenggaran program berbasis data.",
+                        "Tingkat Desa. Pemerintahan desa memainkan peranan yang sangat penting karena dari desa lah data sasaran intervensi pencegahan stunting dikumpulkan. Kepala desa harus memastikan program tepat sasaran. Untuk memfasilitasi pelaksanaan integrasi intervensi penurunan stunting di tingkat desa direkrutlah Kader Pembangunan Manusia (KPM)."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pilar_Penurunan Stunting",
+            "patterns":[
+                "Pilar penurunan stunting?",
+				"Lima pilar penurunan stunting?",
+				"Apa itu lima pilar penurunan stunting?",
+				"Apa yang dimaksud dengan pilar penurunan stunting?",
+				"Apa yang dimaksud edngan lima pilar penurunan stunting?",
+				"Apa pengertian pilar penurunan stunting?",
+				"Apa pengertian lima pilar penurunan stunting?",
+				"Apa saja pilar penurunan stunting?",
+				"Apa saja lima pilar penurunan stunting?",
+				"Apa itu pilar penurunan stunting?",
+				"Pilar penurunan stunting itu apa?",
+				"Lima pilar penurunan stunting itu apa?",
+				"Program penurunan stunting pemerintah?",
+				"Program penurunan stunting oleh pemerintah?",
+				"Apa saja program penurunan stunting pemerintah?",
+				"Apa saja program penurunan stunting oleh pemerintah?",
+				"Apa program penurunan stunting pemerintah?",
+				"Apa program penurunan stunting oleh pemerintah?"
+            ],
+            "responses":[
+                {
+                    "intro": "Pilar penuruan stunting adalah langkah langkah berupa 5 (lima) pilar yang berisikan kegiatan untuk percepatan penurunan stunting dalam rangka pencapaian tujuan pembangunan berkelanjutan melalui pencapaian target nasional prevalensi stunting yang diukur pada anak berusia di bawah 5 (lima) tahun. Berikut adalah 5 pilar penurunan stunting:",
+                    "points": [
+                        "Peningkatan komitmen dan visi kepemimpinan di kementerian/lembaga, Pemerintah Daerah Provinsi, Pemerintah Daerah Kabupaten/Kota, dan Pemerintah Desa.",
+                        "Peningkatan komunikasi perubahan perilaku dan pemberdayaan masyarakat.",
+                        "Peningkatan konvergensi Intervensi Spesifik dan Intervensi Sensitif di kementerian/lembaga, Pemerintah Daerah Provinsi, Pemerintah Daerah Kabupaten/Kota, dan Pemerintah Desa.",
+                        "Peningkatan ketahanan pangan dan gizi pada tingkat individu, keluarga, dan masyarakat.",
+                        "Penguatan dan pengembangan sistem, data, informasi, riset, dan inovasi."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Bayi_Kenyang",
+            "patterns":[
+                "Bagaimana cara mengetahui bahwa bayi kenyang setelah menyusui?",
+				"Cara mengetahui bahwa bayi kenyang setelah menyusui?",
+				"Mengetahui bahwa bayi kenyang setelah menyusui?",
+				"Bagaimana mengetahui bahwa bayi kenyang setelah menyusui?",
+				"Bagimana cara mengetahui bahwa bayi kenyang setelah menyusui?",
+				"Apa cara mengetahui bahwa bayi kenyang setelah menyusui?",
+				"Seperti apa cara mengetahui bahwa bayi kenyang setelah menyusui?",
+				"Seperti apa tanda bahwa bayi kenyang setelah menyusui?",
+				"Tanda bahwa bayi kenyang setelah menyusui?",
+				"Tanda bayi sudah kenyang setelah menyusui?",
+				"Tanda tanda bayi sudah kenyang setelah menyusui?",
+				"Tanda bayi kenyang setelah menyusui?",
+				"Tanda tanda bayi kenyang setelah menyusui?",
+				"Bagaimana cara mengetahui bahwa bayi sudah kenyang setelah menyusui?",
+				"Cara mengetahui bahwa bayi sudah kenyang setelah menyusui?",
+				"Mengetahui bahwa bayi sudah kenyang setelah menyusui?",
+				"Bagaimana mengetahui bahwa bayi sudah kenyang setelah menyusui?",
+				"Bagimana cara mengetahui bahwa bayi sudah kenyang setelah menyusui?",
+				"Apa cara mengetahui bahwa bayi sudah kenyang setelah menyusui?",
+				"Seperti apa cara mengetahui bahwa bayi sudah kenyang setelah menyusui?",
+				"Seperti apa tanda bahwa bayi sudah kenyang setelah menyusui?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut tanda-tanda bayi sudah kenyang setelah menyusui:",
+                    "points": [
+                        "Bayi yang sudah kenyang, dengan sendirinya melepaskan hisapan dari payudara ibu.",
+                        "Jika bayi sudah kenyang, tegakkan posisinya untuk bersendawa. Jika sendawa sudah keluar, letakkan bayi di tempat tidur agar bayi bisa melanjutkan tidurnya dengan nyenyak."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Susu_Formula",
+            "patterns":[
+                "Apakah susu formula boleh diberikan pada bayi?",
+				"Apakah susu formula bisa diberikan pada bayi?",
+				"Bolehkah memberikan susu formula pada bayi?",
+				"Susu formula boleh diberikan pada bayi?",
+				"Bisakah susu formula diberikan pada bayi?",
+				"Bolehkah bayi mengkonsumsi susu formula?",
+				"Apakah bayi boleh mengkonsumsi susu formula?",
+				"Bisakah bayi mengkonsumsi susu formula?"
+            ],
+            "responses":[
+                "Ibu wajib menghindari pemberian susu formula, apalagi untuk bayi kurang dari 1 tahun. Tidak ada asupan gizi terbaik selain ASI. Susu formula hanya diberikan pada bayi pada kondisi tertentu dan berdasarkan saran tenaga kesehatan."
+            ]
+        },
+        {
+            "tag":"Prinsi-prinsip_Pemberian_Makan_Bayi_dan_Anak",
+            "patterns":[
+                "Prinsip prinsip pemberian makan bayi dan anak?",
+				"Apa itu prinsip prinsip pemberian makan bayi dan anak?",
+				"Apa saja prinsip prinsip pemberian makan bayi dan anak?",
+				"Bagaimana prinsip prinsip pemberian makan bayi dan anak?",
+				"Seperti apa prinsip prinsip pemberian makan bayi dan anak?",
+				"Apa itu pemberian makan bayi dan anak?",
+				"Pengertian pemberian makan bayi dan anak?",
+				"Pemberian makan bayi dan anak itu apa?"
+            ],
+            "responses":[
+                {
+                    "intro": "Pemberian Makanan Bayi dan Anak (PMBA) adalah serangkaian praktik pemberian nutrisi yang optimal untuk bayi dan anak usia 0-24 bulan. Berikut prinsip-prinsip pemberian makan bayi dan anak:",
+                    "points": [
+                        "Tepat waktu: Memulai pemberian makanan pendamping pada waktu yang tepat, yaitu ketika ASI saja tidak lagi mencukupi kebutuhan nutrisi bayi.",
+                        "Adekuat: Memberikan makanan dalam jumlah, frekuensi, konsistensi, dan variasi yang cukup untuk memenuhi kebutuhan gizi anak yang sedang tumbuh.",
+                        "Aman: Menyiapkan dan menyimpan makanan secara higienis untuk menghindari kontaminasi dan penyakit.",
+                        "Responsif: Memberi makan dengan cara yang sesuai, memperhatikan sinyal lapar dan kenyang anak, serta mendorong anak untuk makan."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Perbedaan_Stunting_dan_Wasting",
+            "patterns":[
+                "Apa perbedaan stunting dan wasting?",
+				"Apa bedanya stunting dan wasting?",
+				"Perbedaan stunting dan wasting?",
+				"Bedanya stunting dan wasting?",
+				"Apakah stunting dan wasting berbeda?",
+				"Apakah stunting dan wasting sama?",
+				"Apakah perbedaan stunting dan wasting?",
+				"Apakah bedanya stunting dan wasting?",
+				"Apa itu wasting?",
+				"Apa bedanya stunting dengan kekurangan gizi?",
+				"Apa perbedaan stunting dan kekurangan gizi?",
+				"Bedanya stunting dan kekurangan gizi?",
+				"Perbedaan stunting dan kekurangan gizi?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro":
+                                "Stunting adalah kondisi tinggi badan dan berat badan lebih rendah dibandingkan dengan anak seusianya yang mengakibatkan tumbuh kembangnya terjadi gangguan karena gizi kronis."
+                        },
+                        {
+                            "intro": "Ciri-ciri stunting:",
+                            "points": [
+                                "Perawakan lebih pendek dari anak seusianya.",
+                                "Berat badan bisa normal tapi tinggi badan biasanya kurang.",
+                                "Stunting dimulai sejak dalam kandungan.",
+                                "Pola hidup dan pola asuh yang benar bisa cegah anak agar tidak stunting."
+                            ]
+                        },
+                        {
+                            "intro": 
+                            "Wasting adalah kondisi dimana berat badan anak menurun seiring waktu hingga total berat badan jauh dibawah standar kurva pertumbuhan."
+                        },
+                        {
+                            "intro": "Ciri-ciri wasting:",
+                            "points": [
+                                "Perawakan lebih kurus dari anak seusianya.",
+                                "Tinggi badan bisa normal tapi berat badan biasanya kurang.",
+                                "Wasting bisa di sebabkan sakit misalnya diare.",
+                                "Perbaikan wasting dengan penyembuhan penyakit",
+                                "Pola hidup dan pola asuh yang benar bisa cegah anak agar tidak stunting."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Dampak_Gizi_Kronis",
+            "patterns":[
+                "Dampak gizi kronis?",
+				"Apa dampak gizi kronis?",
+				"Apa dampak dari gizi kronis?",
+				"Apa dampak yang disebabkan gizi kronis?",
+				"Apa dampak yang disebabkan oleh gizi kronis?",
+				"Dampak dari gizi kronis?",
+				"Gizi kronis memberikan dampak apa?",
+				"Bagaimana dampat gizi kronis?",
+				"Bagiamana dampak dari gizi kronis?",
+				"Bagaimana dampak yang disebabkan gizi kronis?",
+				"Bagaimana dampak yang disebabkan oleh gizi kronis?",
+				"Apakah ada dampak dari gizi kronis?",
+				"Dampak yang disebabkan gizi kronis?",
+				"Dampak yang disebabkan oleh gizi kronis?"
+            ],
+            "responses":[
+                "Selain gangguan pertumbuhan yang diindikasikan oleh stunting, biasanya anak juga dapat mengalami gangguan perkembangan akibat masalah gizi kronis, baik gangguan pada perkembangan kognitif, motorik, ataupun sistem kekebalan tubuh. Gangguan perkembangan inilah yang kemudian dapat menyebabkan anak mengalami kesulitan belajar atau mudah terserang penyakit. Kondisi kurang gizi kronis yang tidak dicegah atau terlambat dikoreksi dapat meningkatkan resiko terkena penyakit tidak menular (PTM) di usia lebih lanjut (seperti diabetes, penyakit jantung, kanker, stroke, dan lain-lain)."
+            ]
+        },
+        {
+            "tag":"Kesehatan_Mental_Anak",
+            "patterns":[
+                "Apa hubungan stunting dengan kesehatan mental anak?",
+				"Apakah hubungan stunting dengan kesehatan mental anak?",
+				"Adakah hubungan stunting dengan kesehatan mental anak?",
+				"Apakah stunting bisa mempengaruhi kesehatan mental anak?",
+				"Apakah kesehatan mental anak bisa terganggu karena stunting?",
+				"Apakah stunting bisa mengganggu kesehatan mental anak?",
+				"Bisakah kesehatan mental anak terganggu karena stunting?",
+				"Kesehatan mental anak dengan stunting?",
+				"Sunting dengan kesehatan mental anak?",
+				"Kesehatan mental anak terganggu karena stunting?",
+				"Stunting mempengaruhi kesehatan mental anak?",
+				"Stunting mengganggu kesehatan mental anak?",
+				"Stunting bisa mempengaruhi kesehatan mental anak?",
+				"Kesehatan mental anak bsia terganggu karena stunting?"
+            ],
+            "responses":[
+                "Pada kasus stunting, risiko disfungsi psikososial lebih tinggi dibandingkan kondisi normal. Anak terdeteksi memiliki kepercayaan diri yang rendah dan berisiko pula memunculkan masalah keluarga terutama ketika menginjak usia remaja . Anak dengan stunting juga mudah cemas dan rentan mengalami depresi . Setalah beranjak remaja, anak dapat berisiko memiliki kemampuan kognitif yang rendah."
+            ]
+        },
+        {
+            "tag":"Menjaga_Kesehatan_Mental_Anak",
+            "patterns":[
+                "Bagaimana menjaga kesehatan mental anak?",
+				"Bagaimana cara bagaimana menjaga kesehatan mental anak?",
+				"Cara bagaimana menjaga kesehatan mental anak?",
+				"Cara menjaga kesehatan mental anak?",
+				"Menjaga kesehatan mental anak?",
+				"Meningkatkat kesehatan mental anak?",
+				"Mengatasi kesehatan mental anak?",
+				"Cara mengatasi kesehatan mental anak?",
+				"Bagaimana cara mengatasi kesehatan mental anak?",
+				"Bagaimana mengatasi kesehatan mental anak?",
+				"Apa cara menjaga kesehatan mental anak?",
+				"Apa cara mengatasi kesehatan mental anak?",
+				"Menjaga kesehatan mental anak bagaimana?",
+				"Mengatasi kesehatan mental anak bagaimana?"
+            ],
+            "responses":[
+                {
+                    "intro": [
+                        "Ada beragam cara menjaga kesehatan mental anak yang perlu dipahami dan dilakukan oleh orang tua, yaitu:"
+                    ],
+                    "points": [
+                        "Berikan perhatian dan kasih sayang penuh.",
+                        "Bangun kepercayaan anak terhadap orang tua.",
+                        "Jalin hubungan yang baik dengan anak.",
+                        "Tingkatkan rasa percaya diri anak.",
+                        "Ajarkan anak cara untuk meredakan stres.",
+                        "Biasakan anak dengan pola hidup sehat."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pertumbuhan_Anak_Optimal",
+            "patterns":[
+                "Apa itu pertumbuhan optimal anak?",
+				"Bagaimana pertumbuhan anak yang optimal?",
+				"Apa itu pertumbuhan annak yang optimal?",
+				"Bagaimana pertumbuhan optimal anak?",
+				"Apa yang dimaksud dengan pertumbuhan optimal anak?",
+				"Apa yang dimaksud dengan pertumbuhan anak yang optimal?",
+				"Pertumbuhan optimal anak bagaimana?",
+				"Pertumbuhan anak yang optimal bagaimana?"
+            ],
+            "responses":[
+                "Pertumbuhan anak adalah proses perubahan yang ditandai dengan bertambahnya ukuran fisik dan bentuk tubuh. Pertumbuhan anak dapat dinilai melalui pengukuran tinggi badan, berat badan, dan lingkar kepala. Normal tidaknya pengukuran ataupun laju pertumbuhan dapat diketahui melalui standar pengukuran yang tersedia."
+            ]
+        },
+        {
+            "tag":"Cara_Prtumbuhan_Anak_Optimal",
+            "patterns":[
+                "Bagaimana cara agar pertumbuhan anak optimal?",
+				"Bagaimana cara pertumbuhan anak menjadi optimal?",
+				"Bagaimana cara agar pertumbuhan anak dapat optimal?",
+				"Bagaimana cara pertumbuhan anak dapat optimal?",
+				"Cara pertumbuhan anak optimal?",
+				"Cara agar pertmbuhan anak menjadi optimal?",
+				"Cara agar pertumbuhan anak dapat optimal?",
+				"Cara supaya pertumbuhan anak dapat optimal?",
+				"Cara supaya pertumbuhan anak optimal?",
+				"Tips agar pertumbuhan anak optimal?",
+				"Tips agar pertumbuhan anak menjadi optimal?",
+				"Tips supaya pertumbuhan anak optimal?",
+				"Tips supaya pertumbuhan anak menjadi optimal?",
+				"Apakah ada cara agar pertumbuhan anak menjadi optimal?",
+				"Apakah ada cara agar pertumbuhan anak dapat optimal?"
+            ],
+            "responses":[
+                {
+                    "intro": [
+                        "Ada beragam cara menjaga kesehatan mental anak yang perlu dipahami dan dilakukan oleh orang tua, yaitu:"
+                    ],
+                    "points": [
+                        "Memberikan nutrisi yang seimbang dan cukup.",
+                        "Memberikan stimulasi pada perkembangan motorik dan kognitif.",
+                        "Meningkatkan interaksi sosial dengan orang lain.",
+                        "Menjaga lingkungan yang sehat dan aman.",
+                        "Mendukung Anak secara Optimal.",
+                        "Pastikan anak memiliki pola makan dan pola hidup yang bersih untuk menghindarkannya dari penyakit infeksi.",
+                        "Biasakan anak memenuhi waktu tidur yang ideal, yaitu 11-14 jam per hari pada balita dan 10-13 jam per hari pada anak usia 3-5 tahun."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Peran_Zat_Besi",
+            "patterns":[
+                "Peran zat besi?",
+				"Apa peran zat besi bagi stunting?",
+				"Apa zat besi bisa mencegah stunting?",
+				"Apa itu zat besi?",
+				"Zat besi itu apa?",
+				"Apakah zat besi penting bagi anak?",
+				"Apakah zat besi ada hubungan nya dengan stunting?",
+				"Apa stunting bisa dicegah dengan zat besi?",
+				"Untuk apa zat besi?",
+				"Mengapa zat besi penting?",
+				"Apa peran zat besi?",
+				"Apa hubungan zat besi dengan stunting?",
+				"Zat besi untuk apa?",
+				"Zat besi itu untuk apa?",
+				"Mengapa zat besi diperlukan?",
+				"Apakah stunting bisa dicegah dengan zat besi?"
+            ],
+            "responses":[
+                "Peran zat besi pada anak sangat vital untuk mendukung pertumbuhan dan perkembangan mereka. Zat besi penting untuk membentuk sel darah merah yang mengangkut oksigen ke seluruh tubuh, mendukung perkembangan otak, memperkuat sistem kekebalan tubuh, dan menunjang pertumbuhan fisik."
+            ]
+        },
+        {
+            "tag":"Manfaat_Zat_Besi",
+            "patterns":[
+                "Manfaat zat besi?",
+				"Apa manfaat zat besi?",
+				"Manfaat zat besi bagi bayi?",
+				"Apa saja manfaat zat besi?",
+				"Apa manfaat zat besi bagi bayi?",
+				"Apa manfaat memberi zat besi?",
+				"Apa manfaat memberi zat besi pada bayi?",
+				"Zat besi untuk apa?",
+				"Zat besi itu untuk apa?",
+				"Kenapa memberi zat besi kepada bayi?",
+				"Tujuan zat besi?",
+				"Apa tujuan zat besi?",
+				"Apa itu tujuan zat besi?",
+				"Tujuan zat besi apa?",
+				"Tujuan zat besi apa saja?",
+				"Apa saja tujuan zat besi?",
+				"Apa tujuan dari zat besi?",
+				"Tujuan dari zat besi?",
+				"Zat besi berguna untuk?",
+				"Zat besi berguna untuk apa?",
+				"Manfaat zat besi?",
+				"Manfaat zat besi apa?",
+				"Guna zat besi apa?",
+				"Apa manfaat dari zat besi?",
+				"Apa manfaat zat besi?",
+				"Zat besi bertujuan untuk?",
+				"Manfaat zat besi apa?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut ini adalah berbagai manfaat dan fungsi zat tubuh bagi anak:",
+                    "points": [
+                        "Mendukung Pembentukan Sel Darah Merah dan Pengedaran Oksigen: Zat besi dibutuhkan untuk membuat hemoglobin, protein dalam sel darah merah yang mengikat dan mengedarkan oksigen dari paru-paru ke seluruh tubuh.",
+                        "Meningkatkan Fungsi Otak: Oksigen yang cukup sangat penting untuk perkembangan otak yang sehat. Zat besi juga mendukung pembentukan mielin yang melapisi sel saraf, sehingga meningkatkan daya ingat, konsentrasi, dan fungsi kognitif.",
+                        "Memperkuat Sistem Kekebalan Tubuh: Zat besi membantu produksi sel darah putih, yang penting untuk melawan infeksi dan menjaga daya tahan tubuh anak tetap kuat.",
+                        "Menunjang Pertumbuhan Fisik: Zat besi berkontribusi pada pembentukan jaringan tubuh dan otot, mendukung perkembangan fisik anak secara keseluruhan.",
+                        "Mencegah Anemia dan Stunting: Kekurangan zat besi dapat menyebabkan anemia defisiensi besi, yang ditandai dengan kelelahan dan lesu. Asupan zat besi yang cukup juga membantu mencegah risiko stunting pada anak."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pentingnya_Aktivitas_Fisik",
+            "patterns":[
+                "Pentingnya aktivitas fisik anak?",
+				"Apa pentingnya aktivitas fisik bagi anak?",
+				"Mengapa aktivitas fisik pada anak penting?",
+				"Mengapa anak perlu melakukan aktivitas fisik?",
+				"Manfaat aktivitas fisik?",
+				"Manfaat aktivitas fisik bagi anak?",
+				"Pentingnya aktivitas fisik bagi anak?",
+				"Aktivitas fisik bagi anak?",
+				"Aktivitas fisik penting bagi anak?",
+				"Apakah anak perlu melakukan aktivitas fisik?",
+				"Apakah anak butuh aktivitas fisik?",
+				"Apakah anak harus melakukan aktivitas fisik?",
+				"Manfaat aktivitas fisik untuk anak?",
+				"Apa pentingnya aktivitas fisik untuk anak?",
+				"Mengapa aktivitas fisik penting bagi anak?",
+				"Mengapa aktivitas fisik penting untuk anak?"
+            ],
+            "responses":[
+                "Aktivitas fisik sangat penting bagi balita untuk tumbuh kembang optimal, karena mendukung kesehatan fisik (tulang kuat, jantung sehat, berat badan ideal), keterampilan motorik (koordinasi dan keseimbangan), serta kesehatan emosional dan sosial (kepercayaan diri, interaksi, dan kebahagiaan). Aktivitas fisik yang rutin dan menyenangkan mendorong gaya hidup sehat sejak dini dan membantu perkembangan kognitif serta mencegah risiko obesitas di kemudian hari."
+            ]
+        },
+        {
+            "tag":"Aktivitas_Fisik_Anak",
+            "patterns":[
+                "Aktivitas fisik anak?",
+				"Aktivitas fisik untuk anak?",
+				"Apa aktivitas fisik anak?",
+				"Apa aktivitas fisik untuk anak?",
+				"Seperti apa aktivitas fisik anak?",
+				"Seperti apa aktivitas fisik untuk anak?",
+				"Contoh aktivitas fisik anak?",
+				"Contoh aktivitas fisik untuk anak?",
+				"Bagaimana aktivitas fisik anak?",
+				"Bagaimana aktivitas fisik untuk anak?",
+				"Apa saja aktivitas fisik anak?",
+				"Apa saja aktivitas fisik untuk anak?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro":"Berikut contoh aktivitas fisik yang bisa dilakukan oleh anak:"
+                        },
+                        {
+                            "intro": "Usia 0-12 bulan:",
+                            "points": [
+                                "Pada 6 bulan pertama, berikan stimulasi untuk memegang benda dan menggenggamnya. Ajarkan juga gerakan menengok ke kanan, kiri, atas, dan bawah; menggerakan tangan dan kaki lebih sering; dan melakukan gerakan mendorong dengan kaki. Pada 6 bulan kedua, mulai berikan gerakan stimulasi untuk melakukan gerakan berpindah dengan merangkak, ajak anak untuk memindahkan objek dari tangan kanan dan kiri, ajak anak bermain-main dengan bola."
+                            ]
+                        },
+                        {
+                            "intro": "Usia 1-3 Tahun:",
+                            "points": [
+                                "Pada awal usia ini, berikan anak banyak kesempatan untuk mengeksplorasi tempat baru dengan berjalan-jalan. Sesekali Anda dapat menyelipkan aktivitas fisik seperti lompat-lompat, memanjat (di tempat yang aman), dan berlari jarak dekat. Tujuannya untuk melatih kebugaran jantung dan paru-paru, serta meningkatkan kekuatan otot dan membakar kalori. Selain itu, ajak anak untuk menari mengikuti irama musik atau bermain ular-tangga atau kereta-keretaan yang dapat merangsang kemampuan lokomotornya, yakni kemampuan menggerakan seluruh anggota tubuh untuk berpindah tempat. Lakukan aktivitas fisik ini secara teratur, setidaknya 30 menit dalam satu hari."
+                            ]
+                        },
+                        {
+                            "intro": "Usia 3-5 Tahun:",
+                            "points": [
+                                "Pada usia ini, anak sudah sangat mantap berjalan dan berlari. Oleh karena itu, Anda bisa berikan ragam aktivitas yang lebih banyak lagi. Misalnya, ajak anak bersepeda, lomba lari menangkap sesuatu, berenang , dan lain-lain. Pada usia ini, sembari kenalkan anak dengan berbagai jenis olahraga dan mulai mengenalkan gerakan-gerakan yang belum dikuasainya sedikit demi sedikit. Lakukan aktivitas fisik terstruktur ini secara teratur, dalam satu hari setidaknya 60 menit."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pentingnya_Vitamin_A",
+            "patterns":[
+                "Pentingnya vitamin a?",
+				"Apa pentingnya vitamin a bagi anak?",
+				"Mengapa vitamin a untuk anak penting?",
+				"Mengapa anak perlu vitamin a?",
+				"Manfaat vitamin a?",
+				"Manfaat vitamin a bagi anak?",
+				"Pentingnya vitamin a bagi anak?",
+				"Vitamin a bagi anak?",
+				"Vitamin a penting bagi anak?",
+				"Apakah anak perlu vitamin a?",
+				"Apakah anak butuh vitamin a?",
+				"Manfaat vitamin a untuk anak?",
+				"Apa pentingnya vitamin a untuk anak?",
+				"Mengapa vitamin a penting bagi anak?",
+				"Mengapa vitamin a penting untuk anak?",
+				"Manfaat vitamin a?",
+				"Apa manfaat vitamin a?",
+				"Manfaat vitamin a bagi bayi?",
+				"Apa saja manfaat vitamin a?",
+				"Apa manfaat vitamin a bagi bayi?",
+				"Apa manfaat memberi vitamin a?",
+				"Apa manfaat memberi vitamin a pada bayi?",
+				"Vitamin a untuk apa?",
+				"Vitamin a itu untuk apa?",
+				"Kenapa memberi vitamin a kepada bayi?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro":"Vitamin A sangat penting untuk anak karena membantu proses penglihatan, terutama dalam kondisi gelap; memperkuat sistem kekebalan tubuh untuk melawan penyakit; mendukung pertumbuhan dan perkembangan tulang, gigi, serta jaringan tubuh; serta berfungsi sebagai antioksidan untuk melindungi sel-sel tubuh dari radikal bebas. Kekurangan vitamin A dapat menyebabkan gangguan penglihatan hingga kebutaan, menghambat pertumbuhan, dan menurunkan daya tahan tubuh terhadap infeksi."
+                        },
+                        {
+                            "intro": "Berikut ini merupakan manfaat vitamin A bagi anak:",
+                            "points": [
+                                "Meningkatkan Daya Tahan Tubuh.",
+                                "Mendukung Pertumbuhan Normal Anak.",
+                                "Menjaga Kesehatan Mata.",
+                                "Menunjang Kesehatan Kulit.",
+                                "Menjaga Kesehatan Tulang dan Gigi.",
+                                "Mendukung Fungsi Organ Tubuh Lainnya.",
+                                "Sebagai Antioksidan."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pentingnya_Vitamin_D",
+            "patterns":[
+                "Pentingnya vitamin d?",
+				"Apa pentingnya vitamin d bagi anak?",
+				"Mengapa vitamin d untuk anak penting?",
+				"Mengapa anak perlu vitamin d?",
+				"Manfaat vitamin d?",
+				"Manfaat vitamin d bagi anak?",
+				"Pentingnya vitamin d bagi anak?",
+				"Vitamin d bagi anak?",
+				"Vitamin d penting bagi anak?",
+				"Apakah anak perlu vitamin d?",
+				"Apakah anak butuh vitamin d?",
+				"Manfaat vitamin d untuk anak?",
+				"Apa pentingnya vitamin d untuk anak?",
+				"Mengapa vitamin d penting bagi anak?",
+				"Mengapa vitamin d penting untuk anak?",
+				"Manfaat vitamin d?",
+				"Apa manfaat vitamin d?",
+				"Manfaat vitamin d bagi bayi?",
+				"Apa saja manfaat vitamin d?",
+				"Apa manfaat vitamin d bagi bayi?",
+				"Apa manfaat memberi vitamin d?",
+				"Apa manfaat memberi vitamin d pada bayi?",
+				"Vitamin d untuk apa?",
+				"Vitamin d itu untuk apa?",
+				"Kenapa memberi vitamin d kepada bayi?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro":"Vitamin D sangat penting bagi anak untuk mendukung pertumbuhan tulang yang kuat, karena membantu penyerapan kalsium dan fosfor, serta mencegah penyakit seperti rakitis. Manfaat lainnya termasuk memperkuat sistem imun, mendukung fungsi otot, dan berkontribusi pada kesehatan mental. Sumber utama vitamin D adalah paparan sinar matahari dan makanan, namun suplemen juga dapat membantu memenuhi kebutuhan anak."
+                        },
+                        {
+                            "intro": "Berikut ini merupakan manfaat vitamin D bagi anak:",
+                            "points": [
+                                "Meningkatkan Daya Tahan Tubuh.",
+                                "Menjaga kesehatan gigi dan mulut.",
+                                "Membantu menjaga berat badan ideal.",
+                                "Memperbaiki suasana hati dan mengurangi risiko terjadinya depresi.",
+                                "Mendukung perkembangan selubung otak (mielin) yang membantu pengantaran informasi ke otak."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pentingnya_Kalsium",
+            "patterns":[
+                "Pentingnya kalsium?",
+				"Apa pentingnya kalsium bagi anak?",
+				"Mengapa kalsium untuk anak penting?",
+				"Mengapa anak perlu kalsium?",
+				"Manfaat kalsium?",
+				"Manfaat kalsium bagi anak?",
+				"Pentingnya kalsium bagi anak?",
+				"Kalsium bagi anak?",
+				"Kalsium penting bagi anak?",
+				"Apakah anak perlu kalsium?",
+				"Apakah anak butuh kalsium?",
+				"Manfaat kalsium untuk anak?",
+				"Apa pentingnya kalsium untuk anak?",
+				"Mengapa kalsium penting bagi anak?",
+				"Mengapa kalsium penting untuk anak?",
+				"Manfaat kalsium?",
+				"Apa manfaat kalsium?",
+				"Manfaat kalsium bagi bayi?",
+				"Apa saja manfaat kalsium?",
+				"Apa manfaat kalsium bagi bayi?",
+				"Apa manfaat memberi kalsium?",
+				"Apa manfaat memberi kalsium pada bayi?",
+				"Kalsium untuk apa?",
+				"Kalsium itu untuk apa?",
+				"Kenapa memberi kalsium kepada bayi?"
+            ],
+            "responses":[
+                {
+                    "sections": [
+                        {
+                            "intro":"Kalsium sangat penting bagi anak untuk membangun tulang dan gigi yang kuat, mendukung pertumbuhan tinggi badan yang optimal, serta menjaga fungsi otot, saraf, dan jantung. Asupan kalsium yang cukup bersama vitamin D juga membantu mencegah penyakit rakhitis dan mengurangi risiko osteoporosis di kemudian hari. Tanpa kalsium yang cukup, balita berisiko mengalami pertumbuhan terhambat, kaki melengkung, kejang otot, serta masalah kesehatan lain."
+                        },
+                        {
+                            "intro": "Berikut ini merupakan manfaat kalsium bagi anak:",
+                            "points": [
+                                "Meningkatkan Kepadatan Tulang.",
+                                "Mengoptimalkan Tinggi Badan Anak.",
+                                "Meningkatkan Kecerdasan Anak.",
+                                "Memperkuat Sistem Imun Tubuh.",
+                                "Menjaga Sistem Kardiovaskular."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"Pentingnya_Makanan_Bergizi",
+            "patterns":[
+                "Pentingnya makanan bergizi?",
+				"Apa pentingnya makanan bergizi bagi anak?",
+				"Mengapa makanan bergizi untuk anak penting?",
+				"Mengapa anak perlu makanan bergizi?",
+				"Manfaat makanan bergizi?",
+				"Manfaat makanan bergizi bagi anak?",
+				"Pentingnya makanan bergizi bagi anak?",
+				"Makanan bergizi bagi anak?",
+				"Makanan bergizi penting bagi anak?",
+				"Apakah anak perlu makanan bergizi?",
+				"Apakah anak butuh makanan bergizi?",
+				"Manfaat makanan bergizi untuk anak?",
+				"Apa pentingnya makanan bergizi untuk anak?",
+				"Mengapa makanan bergizi penting bagi anak?",
+				"Mengapa makanan bergizi penting untuk anak?"
+            ],
+            "responses":[
+                "Pentingnya makanan bergizi adalah untuk memenuhi kebutuhan energi, mendukung pertumbuhan dan perkembangan optimal, serta meningkatkan daya tahan tubuh dari penyakit. Gizi yang seimbang, terdiri dari karbohidrat, protein, lemak sehat, vitamin, mineral, dan serat, memastikan tubuh dapat berfungsi dengan baik, menjaga berat badan ideal, dan mendukung kesehatan mental. Konsumsi makanan bergizi juga berkontribusi pada pencegahan penyakit kronis seperti obesitas, diabetes, penyakit jantung, dan kanker."
+            ]
+        },
+        {
+            "tag":"Pentingnya_Ketersediaan_Air_Bersih",
+            "patterns":[
+                "Apa penting nya air bersih?",
+				"Apakah air bersih bisa mencegah stunting?",
+				"Air bersih bisa mencegah stunting?",
+				"Ketersediaan air bersih?",
+				"Pentingnya ketersediaan air bersih?",
+				"Pentingnya ketersediaan air bersih untuk mencegah stunting?",
+				"Apakah ketersediaan air besih bisa mencegah stunting?",
+				"Air bersih untuk apa?",
+				"Air bersih itu untuk apa?",
+				"Apakah air bersih itu penting?",
+				"Manfaat air bersih?",
+				"Manfaat ketersediaan air bersih?",
+				"Apa manfaat dari air bersih?",
+				"Apa manfaatnya air bersih?",
+				"Apa manafaat ketersediaan air bersih?",
+				"Apa manfaat air bersih?",
+				"Mengapa air bersih penting?",
+				"Mengapa air bersih itu penting?",
+				"Apakah air bersih itu penting?",
+				"Apakah air bersih penting?"
+            ],
+            "responses":[
+                "Air adalah salah satu elemen utama di Bumi yang menjadi bagian tidak terpisahkan bagi seluruh manusia. Makhluk hidup tidak dapat hidup jika tidak ada air, sehingga air sangat dibutuhkan untuk menjaga kelangsungan makhluk hidup. Air dalam tubuh manusia sangat berfungsi untuk mengisi cairan dalam tubuh dengan meminum air. Selain untuk penghilang rasa haus dan manfaat utama lainnya air untuk tubuh, air juga memiliki manfaat lain yang sangat dibutuhkan untuk menunjang kehidupan. Air yang kita gunakan sehari-hari seperti minum, memasak, mandi dan lainnya harus dalam keadaan bersih sehingga kita dapat terhindar dari penyakit yang disebabkan karena kualitas air buruk. Dengan menggunakan air bersih kita dapat terhindar dari penyakit seperti diare, kolera, disentri, tipes, cacingan, penyakit kulit hingga keracunan. Untuk itu wajib bagi seluruh anggota keluarga dalam menggunakan air bersih setiap hari dan menjaga kualitas air tetap bersih di lingkungannya."
+            ]
+        },
+        {
+            "tag":"Menjaga_Kualitas_Air_Bersih",
+            "patterns":[
+                "Menjaga kualitas air bersih",
+				"Cara menjaga kualitas air bersih?",
+				"Bagaimana menjaga kualitas air bersih?",
+				"Bagaimana cara menjaga kualitas air bersih?",
+				"Cara untuk menjaga kualitas air bersih?",
+				"Apa yang bisa dilakukan untuk menjaga kualitas air bersih?",
+				"Upaya menjaga kualitas air bersih?",
+				"Upaya untuk menjaga kualitas air bersih?",
+				"Upaya agar menjaga kualitas air bersih?",
+				"Cara agar kualitas air bersih?",
+				"Tips menjaga kualitas air bersih?",
+				"Bagaimana tips menjaga kualitas air bersih?",
+				"Cara supaya kualitas air tetap bersih?",
+				"Bagaimana supaya air tetap bersih?",
+				"Cara agar air tetap bersih?",
+				"Tips agar air tetap bersih?",
+				"Cara supaya air tetap bersih?"
+            ],
+            "responses":[
+                {
+                    "intro": "Berikut ada beberapa tips dalam menjaga kualitas air bersih di lingkungan.:",
+                    "points": [
+                        "Pisahkan jarak antara sumber air dengan jamban dan tempat pembuangan sampah minimal 10 meter.",
+                        "Sumber mata air harus dilindungi dari bahan pencemar.",
+                        "Sumur gali, sumur pompa, kran umum dan mata air harus dijaga bangunannya gar tidak rusak.",
+                        "Lantai sumur sebaiknya kedap air (diplester) dan tidak retak, bibir sumur dan dinding sumur harus diplester dan sumur ditutup.",
+                        "Ember penampung air dilengkapi denga penutup dan gayung bertangkai, dijaga kebersihannya.",
+                        "Air harus dijaga kebersihannya dengan tidak ada genangan air di sekitar sumber air, dan dilengkapi dengan saluran pembuangan air, tidak ada kotoran, tidak ada lumut, pada lantai/dinding sumur."
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "Maaf, saya kurang paham dengan pertanyaan anda. Bisa coba dengan kalimat lain?",
+                "Hmm, pertanyaan itu belum saya mengerti. Silakan tanya dengan cara berbeda ya."
+            ]
+        }
+    ]
+}
