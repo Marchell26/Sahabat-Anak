@@ -15,6 +15,8 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+
+print("Files in current dir:", os.listdir(os.getcwd()))
 # === Load model & data ===
 model = load_model(os.path.join(BASE_DIR, 'model.h5'))
 intents = json.load(open(os.path.join(BASE_DIR, 'data.json'), encoding="utf-8"))
@@ -241,3 +243,4 @@ def get_questions():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
