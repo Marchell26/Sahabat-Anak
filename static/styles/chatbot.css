@@ -1,0 +1,401 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: whitesmoke;
+}
+
+/* ===== HEADER & NAVBAR ===== */
+header {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: 5px solid white;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #003366;
+  text-decoration: none;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: 600;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: #6795c3;
+}
+
+nav a.active {
+  border-bottom: 2px solid #003366;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tombol dropdown */
+.dropbtn {
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-block;
+  color: #003366;
+  cursor: pointer;
+}
+
+/* Isi dropdown disembunyikan dulu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: max-content;
+  min-width: unset;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%;
+  right: 0; /* ini membuat dropdown tidak keluar dari sisi kanan layar */
+  border: 5px solid #ccc;
+  border-radius: 15px;
+}
+
+/* Isi dropdown link */
+.dropdown-content a {
+  color: #003366;
+  padding: 10px 10px;
+  margin: 0;
+  display: block;
+}
+
+/* Hover efek */
+.dropdown-content a:hover {
+  background-color: #e0e0e0;
+  border-radius: 8px;;
+}
+
+/* Tampilkan dropdown saat hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ===== CHATBOT CONTAINER ===== */
+.msger {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 867px;
+  margin: 25px auto;
+  height: calc(100vh - 50px);
+
+  border: 2px solid #003366;
+  border-radius: 5px;
+}
+
+
+/* ===== HEADER CHATBOX ===== */
+.msger-header {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #003366;
+  background: #eee;
+  color: #003366;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-family: 'Pacifico', cursive;
+}
+
+/* ===== CHAT AREA ===== */
+.msger-chat {
+  flex: 1;
+  overflow-y: auto;         /* biar bisa scroll ke atas */
+  padding: 20px;
+  z-index: 0;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url("/static/images/bgchatbot.jpg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.msger-chat .msg {
+  position: relative;
+  z-index: 1; /* pastikan pesan tampil di atas overlay */
+}
+
+.msger-chat::-webkit-scrollbar {
+  width: 8px;
+}
+.msger-chat::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 10px;
+}
+.msger-chat::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 10px;
+}
+
+/* ===== BUBBLE CHAT ===== */
+.msg {
+  display: flex;
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: justify;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.msg-img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  background: #ddd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.msg-bubble {
+  max-width: 450px;
+  padding: 12px 15px;
+  border-radius: 15px;
+  background: var(--left-msg-bg);
+}
+.msg-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #003366;
+  margin-bottom: 6px;
+}
+.msg-info-name {
+  margin-right: 10px;
+  color: #003366;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+.msg-info-time {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.left-msg .msg-bubble {
+  background: #ececec;
+  color: #000;
+  border-radius: 15px 15px 15px 0;
+  align-self: flex-start;     /* dorong seluruh blok ke kiri */
+  flex-direction: row;
+}
+
+.right-msg {
+  align-self: flex-end;       /* dorong seluruh blok ke kanan */
+  flex-direction: row-reverse;/* avatar kanan, bubble kiri */
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.right-msg .msg-bubble {
+  background: #ececec; /* warna biru */
+  color: black;          /* teks putih */
+  border-radius: 15px 15px 0 15px;
+}
+
+.msg-img {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+/* ===== INPUT AREA ===== */
+.msger-inputarea {
+  display: flex;
+  padding: 12px;
+  border-top: 2px solid #003366;
+  background: whitesmoke;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.msger-inputarea * {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+}
+.msger-input {
+  flex: 1;
+  background: #ddd;
+}
+.msger-send-btn {
+  margin-left: 10px;
+  background: #003366;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+.msger-send-btn:hover {
+  background: #6795c3;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  border-top: 5px solid white;
+  margin-top: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.recommendations {
+  padding: 14px 16px;
+  border-top: 2px solid #003366;
+  background: #f9fafc;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.recommendations::before {
+  content: "💡 Rekomendasi Pertanyaan:";
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 600;
+  color: #003366;
+  margin-bottom: 6px;
+}
+
+.recommendations .rec-btn {
+  background: #fff;
+  color: #003366;
+  border: 1px solid #003366;
+  padding: 6px 12px;
+  border-radius: 18px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all .2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.recommendations .rec-btn:hover {
+  background: #003366;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* === Responsif Chatbot untuk layar kecil (HP) === */
+@media (max-width: 768px) {
+
+  /* Header & nav */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  nav a,
+  .dropbtn {
+    margin-left: 0;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .dropdown-content {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+  }
+
+  /* Container chatbot */
+  .msger {
+    width: 95%;
+    margin: 15px auto;
+    height: calc(100vh - 40px); /* menyesuaikan tinggi layar HP */
+  }
+
+  /* Header chat */
+  .msger-header {
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Chat area */
+  .msger-chat {
+    padding: 15px;
+  }
+
+  /* Chat bubble */
+  .msg-bubble {
+    max-width: 75%; /* jangan terlalu lebar di HP */
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  /* Avatar */
+  .msg-img {
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+  }
+
+  /* Input area */
+  .msger-inputarea {
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  .msger-inputarea input,
+  .msger-inputarea button {
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .msger-send-btn {
+    margin-left: 10px;
+  }
+
+  /* Recommendations */
+  .recommendations {
+    padding: 8px 10px;       /* lebih kecil dari sebelumnya */
+    gap: 5px;                 /* jarak antar tombol lebih rapat */
+    font-size: 12px;          /* teks lebih kecil */
+  }
+
+  .recommendations .rec-btn {
+    padding: 4px 8px;         /* tombol lebih kecil */
+    font-size: 11px;          /* font lebih kecil */
+    border-radius: 12px;      /* radius lebih kecil */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
+
+}

@@ -1,0 +1,383 @@
+/* === Global Body Styling === */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ADD8E6;
+}
+
+/* === Header === */
+header {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: 5px solid white;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #003366;
+  text-decoration: none;
+}
+
+/* === Navigasi === */
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: 600;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: #6795c3;
+}
+
+nav a.active {
+  border-bottom: 2px solid #003366;
+}
+
+.hero {
+  background-image: url('/static/images/gambarhome2.jpg');
+  color: whitesmoke;
+  text-shadow: 5px 5px 6px #000;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 5px solid white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: white;
+}
+
+.breadcrumb-link {
+  color: red;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.breadcrumb-link:hover {
+  transform: scale(1.1);
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgb(236, 233, 233);
+}
+
+.judul {
+  padding: 1px 10px;
+  color: #003366;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.subjudul {
+  display: block !important;
+  margin-bottom: 10px !important;
+  font-size: 25px !important;
+  color: #003366 !important;
+  font-family: 'Quicksand', sans-serif !important;
+  text-align: center !important;
+}
+
+.content p {
+  padding: 0px 20px;
+  margin-top: 0;
+  line-height: 1.6;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+/* Container dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tombol dropdown */
+.dropbtn {
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-block;
+  color: #003366;
+  cursor: pointer;
+}
+
+/* Isi dropdown disembunyikan dulu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: max-content;
+  min-width: unset;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%;
+  right: 0; /* ini membuat dropdown tidak keluar dari sisi kanan layar */
+  border: 5px solid #ccc;
+  border-radius: 15px;
+}
+
+/* Isi dropdown link */
+.dropdown-content a {
+  color: #003366;
+  padding: 10px 10px;
+  margin: 0;
+  display: block;
+}
+
+/* Hover efek */
+.dropdown-content a:hover {
+  background-color: #e0e0e0;
+  border-radius: 8px;;
+}
+
+/* Tampilkan dropdown saat hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* === Tombol Scroll ke Atas === */
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  background-color: #003366;
+  color: white;
+  outline: none;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+  transform: scale(1.1);
+}
+
+.fitur-tentang {
+  padding: 50px 20px;
+  background-color: rgb(236, 233, 233);
+}
+
+.judul-besar {
+  text-align: center;
+  position: relative;
+  top: -60px;
+  border-top: 5px solid white;
+}
+
+.judul-besar h2 {
+  color: #003366;
+  font-size: 32px;
+  margin-bottom: 0px;
+  font-family: 'Pacifico', cursive;
+}
+
+.judul-besar p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: -10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.fitur-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.fitur-box {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f5f9ff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+  margin-bottom: 10px;
+}
+
+.fitur-box:hover {
+  transform: translateY(-3px);
+}
+
+.ikon-gambar {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.fitur-teks h3 {
+  font-size: 30px;
+  color: #003366;
+  margin-bottom: 8px;
+  font-family: 'Pacifico', cursive;
+}
+
+.fitur-teks p {
+  font-size: 20px;
+  color: #444;
+  line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.footer {
+  background-color: #f1f1f1; /* warna latar belakang */
+  color: #333; /* warna teks */
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;/* jarak dari konten atas */
+  border-top: 5px solid white;
+}
+
+.btn-cta {
+  background-color: #003366;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px #555;
+  margin-left: 720px;
+  font-family: 'Quicksand', sans-serif;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.btn-cta:hover {
+  transform: scale(1.1);
+}
+
+/* === RESPONSIVE UNTUK MOBILE === */
+@media (max-width: 768px) {
+
+  /* Header dan Navbar mengikuti style halaman home */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav a,
+  .dropbtn {
+    margin-left: 0;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .dropdown-content {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 40px 10px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  /* Teks konten */
+  .judul {
+    font-size: 24px;
+  }
+
+  .subjudul {
+    font-size: 18px !important;
+  }
+
+  .content p {
+    font-size: 16px;
+    padding: 0 15px;
+    text-align: justify;
+  }
+
+  /* Fitur box jadi kolom */
+  .fitur-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ikon-gambar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px auto;
+  }
+
+  .fitur-teks h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .fitur-teks p {
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 0;
+  }
+
+  /* Tombol agar tidak numpang di kanan */
+  .btn-cta {
+    margin-left: 0;
+    width: fit-content;
+    margin-top: 15px;
+  }
+
+  /* Footer lebih kecil */
+  .footer {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+
+  /* Scroll to top lebih kecil */
+  #scrollTopBtn {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
