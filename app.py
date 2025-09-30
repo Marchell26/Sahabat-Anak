@@ -1,6 +1,5 @@
 import nltk
 nltk.download('popular')
-nltk.download("stopwords")
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 lemmatizer = WordNetLemmatizer()
@@ -12,15 +11,18 @@ import json
 import random
 from flask import Flask, render_template, request, jsonify
 from difflib import SequenceMatcher
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # === Load model & data ===
-model = load_model('model.h5')
-intents = json.loads(open('data.json', encoding="utf-8").read())
-words = pickle.load(open('texts.pkl', 'rb'))
-classes = pickle.load(open('labels.pkl', 'rb'))
+model = load_model(os.path.join(BASE_DIR, 'model.h5'))
+intents = json.load(open(os.path.join(BASE_DIR, 'data.json'), encoding="utf-8"))
+words = pickle.load(open(os.path.join(BASE_DIR, 'texts.pkl'), 'rb'))
+classes = pickle.load(open(os.path.join(BASE_DIR, 'labels.pkl'), 'rb'))
 
 # load tokenizer
-with open('tokenizer.pkl', 'rb') as handle:
+with open(os.path.join(BASE_DIR, 'tokenizer.pkl'), 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # dapatkan max_len dari training
