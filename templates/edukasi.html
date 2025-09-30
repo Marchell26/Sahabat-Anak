@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sahabat Anak</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/edukasi.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome1.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome2.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome3.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome4.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome5.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome6.jpg') }}">
+</head>
+<body>
+ <header>
+    <div><a href="{{ url_for('index') }}" class="logo">SAHABAT ANAK</a></div>
+<nav>
+  <a href="{{ url_for('index') }}">Home</a>
+  <a href="{{ url_for('tentang') }}">Tentang Website</a>
+  <a href="{{ url_for('chatbot') }}">Sahabat Anak Bot</a>
+
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Pages &#9662;</a>
+    <div class="dropdown-content">
+      <a href="{{ url_for('edukasi') }}" class="active">Edukasi</a>
+      <a href="{{ url_for('gizi') }}">Gizi dan Nutrisi</a>
+      <a href="{{ url_for('pola') }}">Pola Asuh Anak</a>
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Edukasi</h2>
+      <p><a href="{{ url_for('index') }}" class="breadcrumb-link">Home</a> / Pages / Edukasi</p>
+    </div>
+  </section>
+
+  <!-- === EDUKASI GRID === -->
+  <section class="edukasi-section">
+    <div class="edukasi-container">
+
+      <!-- Materi 1 -->
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Pengertian Stunting</h3>
+          <p>
+            Stunting adalah masalah kurang gizi kronis yang disebabkan oleh asupan gizi yang kurang dalam waktu cukup lama akibat pemberian makanan yang tidak sesuai dengan kebutuhan gizi. Stunting dapat terjadi mulai dari janin masih dalam kandungan dan baru terlihat saat anak berusia dua tahun (Kementerian Kesehatan Republik Indonesia, 2016). Stunting dan kekurangan gizi lainnya yang terjadi pada 1.000 HPK tidak hanya menyebabkan hambatan pertumbuhan fisik dan meningkatkan kerentanan terhadap penyakit, tetapi juga mengancam perkembangan kognitif yang akan berpengaruh pada tingkat kecerdasan saat ini dan produktivitas anak di masa dewasanya.
+          </p>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/1.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/2.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Penyebab Stunting</h3>
+          <p>Stunting adalah masalah kesehatan yang tak boleh dianggap sepele. Penyebab stunting yang biasanya terjadi pada masa kanak-kanak, terutama pada dua tahun pertama kehidupan adalah kekurangan gizi kronis, atau kekurangan gizi dalam jangka waktu yang panjang. Selain itu, ada berbagai faktor lainnya yang dapat menyebabkan stunting, antara lain:</p>
+        <ul type="disc">
+        <li>Ibu hamil kekurangan asupan gizi.</li>
+        <li>Pola makan tidak seimbang.</li>
+        <li>Perawatan yang tidak memadai usai melahirkan. </li>
+        <li>Gizi anak yang tidak terpenuhi.</li>
+        <li>Pola asuh orang tua yang tidak efektif.</li>
+        <li>Kurangnya akses ke layanan kesehatan.</li>
+        <li>Kurangnya edukasi terhadap masalah gizi.</li>
+        <li>Pemberian ASI yang tidak eksklusif.</li>
+        </ul>
+          </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/3.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/4.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Gejala atau Ciri-ciri Stunting</h3>
+          <p>Gejala atau ciri-ciri stunting umumnya bisa terlihat saat anak berusia 2 tahun. Namun, hal ini sering tidak disadari, atau malah disalahartikan sebagai perawakan pendek yang normal. Gejala dan tanda-tanda yang bisa menunjukkan anak mengalami stunting adalah:</p>
+        <ul type="disc">
+        <li>Tinggi badan anak lebih pendek daripada tinggi badan anak seusianya.</li>
+        <li>Berat badan tidak meningkat secara konsisten.</li>
+        <li>Tahap perkembangan yang terlambat dibandingkan anak seusianya.</li>
+        <li>Tidak aktif bermain.</li>
+        <li>Sering lemas.</li>
+        <li>Mudah terserang penyakit, terutama infeksi.</li>
+        </ul>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/5.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/6.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Dampak Stunting</h3>
+          <p>Dampak stunting tidak hanya terbatas pada tinggi badan yang kurang. Stunting memiliki konsekuensi jangka panjang yang serius pada kesehatan dan perkembangan anak, serta produktivitas di masa depan:</p>
+        <ul type="disc">
+        <li>Stunting dapat menghambat perkembangan kognitif dan kemampuan belajar anak.</li>
+        <li>Anak yang mengalami stunting lebih rentan terhadap infeksi dan penyakit.</li>
+        <li>Stunting meningkatkan risiko penyakit jantung, diabetes, dan obesitas di kemudian hari.</li>
+        <li>Orang dewasa yang pernah mengalami stunting cenderung memiliki produktivitas kerja yang lebih rendah.</li>
+        <li>Stunting dapat menghambat pertumbuhan ekonomi suatu negara karena mengurangi kualitas sumber daya manusia.</li>
+        </ul>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/7.jpg') }}" alt="Gambar 1">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Penanggulangan Stunting</h3>
+          <p class="special-ringkasan">Cara mencegah stunting bisa dimulai sejak janin di dalam kandungan. Di samping itu, cara memutus rantai stunting pada generasi berikutnya juga bisa diawali saat remaja putri. Nah, berikut ini beberapa upaya yang bisa dilakukan untuk mencegah stunting pada anak.</p>
+          <p class="special-ringkasan">Pada masa balita. Pada program pencegahan stunting di usia balita bisa dimulai dari pemantauan kesehatan pada 1.000 hari pertama kehidupan bayi. Kemudian bisa berlanjut dengan pemberian ASI eksklusif selama 6 bulan penuh di awal kehidupannya. Pada masa kehamilan. Pemeriksaan kehamilan secara berkala, mengonsumsi makanan tinggi kalori, protein dan mikronutrien selama kehamilan, melakukan pemeriksaan guna mendeteksi penyakit, dan menjalani proses persalinan di fasilitas kesehatan. Gaya hidup sehat. Menerapkan pola makan seimbang untuk ibu dan anak, pemberian vaksinasi yang rutin dan cek kesehatan, serta membiasakan aktivitas fisik. Pemberian makanan tambahan di usia 6 – 24 bulan. Sebaiknya utamakan makanan yang berbasis protein hewani. Contohnya, ikan, ayam, daging, dan susu yang bisa memperbaiki kondisi stunting pada anak. Edukasi mengenai pernikahan dan mencegah pernikahan dini. Pernikahan dini bisa memicu terjadinya stunting. Mengapa begitu? Sebab, pernikahan dini bisa berdampak pada kesehatan ibu yang pada akhirnya menyebabkan kehamilan berisiko. Konseling gizi. Program konseling gizi biasanya dilakukan di puskesmas dan rumah sakit daerah. Program ini sebagai bentuk pembekalan pengetahuan mengenai gizi yang sehat untuk keluarga.</p>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/9.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/10.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>ASI, Terbaik untuk bayi!</h3>
+          <p> Saat bayi lahir, Hanya ASI makanan yang terbaik untuk bayi. ASI merupakan kebutuhan utama bagi bayi saat pertama kali lahir (0 hingga 6 bulan). ASI menyediakan nutrisi lengkap dan ideal, memperkuat sistem kekebalan tubuh bayi, mendukung perkembangan otak dan penglihatan, serta membantu mencegah alergi, obesitas, dan infeksi. Selain itu, proses pemberian ASI sangat bermanfaat bagi Ibu dan Bayi. Proses menyusui dapat memperkuat ikatan kasih sayang, memberikan rasa nyaman dan menenangkan bagi bayi.</p>
+          <p>Cara memperlancar produksi ASI:</p>
+        <ul type="disc">
+        <li>Menyusui sesering mungkin.</li>
+        <li>Pastikan bayi menyusu sampai payudara terasa kosong.</li>
+        <li>Usahakan untuk mendapatkan istirahat yang cukup.</li>
+        <li>Konsumsi makanan yang sehat dan bergizi</li>
+        <li>Minumlah air putih yang cukup setiap hari.</li>
+        </ul>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/11.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/12.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Makanan Pendamping ASI</h3>
+          <p class="special-ringkasan1">Saat bayi memasuk usia 6 bulan, ASI sudah tidak lagi menjadi makanan satu-satunya. Bayi berusia 6 - 24 bulan memerlukan makanan lain yang biasa disebut makanan pendamping ASI (MP-ASI). Setelah memasuki usia 6 bulan, bayi membutuhkan lebih banyak vitamin, mineral, protein, dan karbohidrat. Kebutuhan gizi yang tinggi ini tidak bisa hanya didapatkan dari ASI. Selain itu, pemberian MP-ASI agar melatih dan membiasakan bayi mengonsumsi makanan yang mengandung zat-zat gizi yang dibutuhkan oleh tubuhnya seiring dengan pertambahan usianya dan dapat membantu mengembangkan kemampuan bayi dalam mengunyah dan menelan makanan.</p>
+          <p>Tanda-tanda bayi siap menerima MP-ASI:</p>
+        <ul type="disc">
+        <li>Bayi memiliki kontrol kepala yang baik, kepala bayi tetap tegak dan stabil saat didudukkan.</li>
+        <li>Reflek menjulurkan lidah dan gumoh sudah berkurang.</li>
+        <li>Tertarik atau mencoba meraih makanan yang dimakan orang tua.</li>
+        <li>Selera makan bayi meningkat.</li>
+        </ul>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/13.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/14.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Kebutuhan Perkembangan Anak</h3>
+          <p class="special-ringkasan">Saat bayi berusia 0 hingga 6 bulan diperlukan 3 aspek kebutuhan agar tidak menimbulkan dampak negatif bagi pertumbuhan dan perkembangan anak. Aspek tersebut mencakup Asuh (Fisik-Biologis), Asah (Mentasl-Emosional), Asih (Psikososial).</p>
+          <p class="specialp">Kebutuhan Asuh:</p>
+        <ul class="special-li" type="disc">
+        <li>Memenuhi kebutuhan nutrisi.</li>
+        <li>Memberikan kesehatan.</li>
+        <li>Istirahat dan aktivitas fisik.</li>
+        <li>Lingkungan yang aman.</li>
+        </ul>
+          <p class="specialp">Kebutuhan Asah:</p>
+        <ul class="special-li" type="disc">
+        <li>Stimulasi sensori.</li>
+        <li>Interaksi sosial.</li>
+        <li>Memberi ikatan emosianal dan perhatian.</li>
+        </ul>
+          <p class="specialp">Kebutuhan Asih:</p>
+        <ul class="special-li" type="disc">
+        <li>Menciptakan suasana penuh kasih sayang.</li>
+        <li>Mendengarkan dan memperhatikan.</li>
+        <li>Memberi dorongan dan dukungan.</li>
+        </ul>
+      </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/15.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/16.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Mengasuh Bayi dengan Benar</h3>
+          <p>Pengasuhan anak yang baik bukan hanya soal memberi makan atau memenuhi kebutuhan sehari-hari, tetapi juga tentang membentuk kepribadian dan masa depan mereka. Anak membutuhkan cinta, perhatian, dan bimbingan yang konsisten. Orang tua yang mampu memberikan rasa aman, mendengarkan dengan tulus, serta menanamkan nilai dan disiplin dengan penuh kelembutan akan membantu anak tumbuh menjadi pribadi yang sehat, percaya diri, dan bertanggung jawab.</p>
+          <p>Pada masa bayi, pengasuhan berfokus pada pemenuhan kebutuhan dasar seperti pemberian ASI eksklusif, menjaga kebersihan, dan memastikan bayi cukup tidur. Kehangatan, pelukan, serta respons cepat terhadap tangisan bayi juga sangat penting, karena dari sanalah terbentuk rasa percaya bayi kepada orang tuanya</p>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/17.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/18.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Imunisasi Balita</h3>
+          <p class="special-ringkasan2">Imunisasi balita merupakan salah satu langkah penting dalam menjaga kesehatan anak sejak dini. Melalui imunisasi, tubuh anak dipersiapkan untuk melawan berbagai penyakit berbahaya yang dapat mengancam tumbuh kembangnya. Imunisasi bayi adalah proses memberikan vaksin untuk membentuk kekebalan tubuh terhadap penyakit berbahaya, seperti Hepatitis B, Polio, dan Campak. Tujuannya adalah melindungi bayi dari infeksi dan mencegah penyebaran penyakit. </p>
+          <p class="specialp2">Cara kerja Imunisasi:</p>
+        <ul class="special-li2" type="disc">
+        <li>Vaksin mengandung kuman yang telah dilemahkan atau dimatikan, atau bahkan hanya bagian dari kuman tersebut.</li>
+        <li>Kuman ini merangsang sistem kekebalan tubuh seolah-olah ada infeksi nyata, sehingga tubuh dapat membentuk antibodi dan mengingat cara melawan kuman tersebut.</li>
+        <li>Ketika bayi terpapar kuman sebenarnya di masa depan, sistem kekebalan tubuhnya sudah siap untuk melawan infeksi tersebut.</li>
+        </ul>
+      </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/19.jpg') }}" alt="Gambar 1">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Cuci Tangan Pakai Sabun</h3>
+          <p class="special-ringkasan3">Cuci tangan dengan sabun adalah cara terbaik untuk menghentikan penyebaran kuman dibandingkan hanya dengan memakai air saja. Kebiasaan sederhana ini terbukti efektif dalam menurunkan risiko berbagai penyakit. Oleh karena itu, penting untuk mengetahui cara mencuci tangan yang benar.</p> 
+          <p class="special-ringkasan3">Penyebaran kuman melalui tangan sering menyebabkan penyakit. Umumnya, setiap orang terkadang sering menyentuh mata, hidung, dan mulut tanpa disadari. Padahal, hal tersebut justru membuat kuman dengan mudah masuk ke dalam tubuh melalui ketiga area yang disentuh tadi. Bila dibiarkan terus menerus, kebiasaan tidak mencuci tangan bisa menyebabkan diare, infeksi saluran pernapasan, serta infeksi kulit dan mata.</p> 
+          <p class="special-ringkasan3">Setelah mengetahui pentingnya mencuci tangan dengan sabun, ada baiknya kita mulai mempraktikkannya. Jangan lupa untuk mengajarkan cuci tangan yang benar kepada Si Kecil dan juga anggota keluarga lainnya.</p>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/20.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/21.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+      <div class="materi-item">
+        <div class="materi-text">
+          <h3>Gunakan Air Bersih</h3>
+          <p>Air adalah salah satu elemen penting di Bumi yang menjadi bagian tidak terpisahkan bagi manusia. Makhluk hidup tidak dapat hidup tanpa air, sehingga air sangat dibutuhkan untuk keberlangsungan makhluk hidup. Salah satu bentuk Perilaku Hidup Bersih dan Sehat adalah dengan menggunakan air bersih setiap hari. Karena kualitas air dapat mempengaruhi kesehatan dan kehidupan.</p>
+          <p>Air yang kita gunakan setiap hari untuk minum, memasak, mandi dan lainnya harus dalam keadaan bersih sehingga kita terhindar dari penyakit yang disebabkan oleh kualitas air yang buruk. Menggunakan air bersih kita dapat terhindar dari berbagai penyakit seperti diare, kolera, disentri, tipes, cacingan, penyakit kulit dan keracunan. Maka dari itu wajib bagi seluruh anggota keluarga untuk menggunakan air bersih setiap hari dan menjaga kualitas air tetap bersih di lingkungannya.</p>
+        </div>
+        <div class="materi-slider">
+          <div class="slider-wrapper">
+            <div class="slides">
+              <img src="{{ url_for('static', filename='images/22.jpg') }}" alt="Gambar 1">
+              <img src="{{ url_for('static', filename='images/23.jpg') }}" alt="Gambar 2">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Kembali ke atas">↑</button>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+  <!-- Script slider -->
+  <script>
+    document.querySelectorAll('.materi-item').forEach(function(item){
+      const slides = item.querySelector('.slides');
+      const imgs = slides.querySelectorAll('img');
+      const prev = item.querySelector('.prev');
+      const next = item.querySelector('.next');
+      let index = 0;
+
+      function showSlide(i){
+        slides.style.transform = `translateX(-${i * 100}%)`;
+      }
+
+      prev.addEventListener('click', ()=> {
+        index = (index > 0) ? index - 1 : imgs.length - 1;
+        showSlide(index);
+      });
+
+      next.addEventListener('click', ()=> {
+        index = (index < imgs.length - 1) ? index + 1 : 0;
+        showSlide(index);
+      });
+    });
+  </script>
+
+<footer class="footer">
+  <p>&copy; 2025 Sahabat Anak.</p>
+</footer>
+</body>
+</html>

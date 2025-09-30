@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sahabat Anak</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/gizi.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome1.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome2.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome3.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome4.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome5.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome6.jpg') }}">
+</head>
+<body>
+ <header>
+    <div><a href="{{ url_for('index') }}" class="logo">SAHABAT ANAK</a></div>
+<nav>
+  <a href="{{ url_for('index') }}">Home</a>
+  <a href="{{ url_for('tentang') }}">Tentang Website</a>
+  <a href="{{ url_for('chatbot') }}">Sahabat Anak Bot</a>
+
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Pages &#9662;</a>
+    <div class="dropdown-content">
+      <a href="{{ url_for('edukasi') }}">Edukasi</a>
+      <a href="{{ url_for('gizi') }}" class="active">Gizi dan Nutrisi</a>
+      <a href="{{ url_for('pola') }}">Pola Asuh Anak</a>
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Gizi dan Nutrisi</h2>
+      <p><a href="{{ url_for('index') }}" class="breadcrumb-link">Home</a> / Pages / Gizi dan Nutrisi</p>
+    </div>
+  </section>
+
+<section class="content">
+    <div class="container">
+      <h2 class="judul">Gizi dan Nutrisi</h2>
+      <p>Pemenuhan gizi seimbang adalah fondasi penting bagi tumbuh kembang anak dan kesehatan keluarga. Seiring berkembangnya waktu, pola makan masyarakat Indonesia pun terus menyesuaikan dengan kebutuhan gizi yang lebih tepat.</p>
+      <p>Stunting bisa dicegah sejak dini lewat asupan gizi seimbang setiap hari. Untuk mendapatkan asupan gizi seimbang, diperlukan sebuah komposisi yang tepat. Komposisi tersebut berupa karbohidrat, protein, mineral, dan vitamin. Sekarang ayo kita mempelajari darimana kita bisa mendapatkan asupan gizi yang seimbang.  </p>
+    </div>
+
+   <div class="leaflet-grid">
+    <div class="leaflet-card"  
+         data-images='["{{ url_for("static", filename="images/pokok1.jpg") }}", "{{ url_for("static", filename="images/pokok2.jpg") }}"]'
+         onclick="openLeaflet(this.dataset.title, JSON.parse(this.dataset.images))">
+      <h3>Makanan Pokok (Sumber Karbohidrat)</h3>
+    </div>
+
+    <div class="leaflet-card" 
+         data-title="Lauk-Pauk (Sumber Protein)" 
+         data-images='["{{ url_for("static", filename="images/lauk1.jpg") }}", "{{ url_for("static", filename="images/lauk2.jpg") }}"]'
+         onclick="openLeaflet(this.dataset.title, JSON.parse(this.dataset.images))">
+      <h3>Lauk-Pauk (Sumber Protein)</h3>
+    </div>
+
+    <div class="leaflet-card" 
+         data-title="Sayur-Sayuran (Sumber Vitamin dan Mineral)" 
+         data-images='["{{ url_for("static", filename="images/sayur1.jpg") }}", "{{ url_for("static", filename="images/sayur2.jpg") }}"]'
+         onclick="openLeaflet(this.dataset.title, JSON.parse(this.dataset.images))">
+      <h3>Sayur-Sayuran (Sumber Vitamin dan Mineral)</h3>
+    </div>
+
+    <div class="leaflet-card" 
+         data-title="Buah-Buahan (Sumber Vitamin dan Mineral)" 
+         data-images='["{{ url_for("static", filename="images/buah1.jpg") }}", "{{ url_for("static", filename="images/buah2.jpg") }}"]'
+         onclick="openLeaflet(this.dataset.title, JSON.parse(this.dataset.images))">
+      <h3>Buah-Buahan (Sumber Vitamin dan Mineral)</h3>
+    </div>
+
+    <div class="leaflet-card" 
+         data-title="Minum Air 8 Gelas Sehari" 
+         data-images='["{{ url_for("static", filename="images/air1.jpg") }}", "{{ url_for("static", filename="images/air2.jpg") }}"]'
+         onclick="openLeaflet(this.dataset.title, JSON.parse(this.dataset.images))">
+      <h3>Minum Air 8 Gelas Sehari</h3>
+    </div>
+
+    <div class="leaflet-card" 
+         data-title="Memantau Berat Badan Setiap Bulan" 
+         data-images='["{{ url_for("static", filename="images/bb1.jpg") }}"]'
+         onclick="openLeaflet(this.dataset.title, JSON.parse(this.dataset.images))">
+      <h3>Memantau Berat Badan Setiap Bulan</h3>
+    </div>
+  </div>
+</section>
+
+<section class="discussion-section">
+  <div class="discussion-container">
+    <h2>Pemenuhan Gizi Anak</h2>
+    <p>
+      Pemenuhan gizi anak adalah salah satu faktor penting dalam mendukung tumbuh kembang anak yang optimal. Asupan gizi yang seimbang sejak dini tidak hanya berpengaruh pada kesehatan fisik, tetapi juga pada perkembangan kognitif dan daya tahan tubuh anak. Kekurangan maupun kelebihan gizi dapat berdampak pada kualitas hidup anak di masa depan. Oleh karena itu, pemilihan makanan bergizi, pola makan yang teratur, serta edukasi kepada orang tua sangat diperlukan agar anak dapat tumbuh sehat, cerdas, dan berdaya saing. Melalui pembahasan berikut ini, kita dapat melihat sumber gizi utama yang dapat diberikan kepada anak dimulai dari anak berusia 6-23 bulan dan 2-5 tahun.
+    </p>
+    <div class="discussion-images">
+      <img src="{{ url_for('static', filename='images/pemenuhan1.jpg') }}" alt="Gambar Pembahasan 1">
+      <img src="{{ url_for('static', filename='images/pemenuhan2.jpg') }}" alt="Gambar Pembahasan 2">
+    </div>
+  </div>
+</section>
+
+<!-- Modal Leaflet -->
+<div id="leafletModal" class="leaflet-modal">
+  <div class="leaflet-content">
+    <span class="close-btn" onclick="closeLeaflet()">&times;</span>
+    <div id="leafletImages" class="leaflet-images"></div>
+  </div>
+</div>
+
+<script>
+  function openLeaflet(title, images) {
+    const container = document.getElementById("leafletImages");
+    container.innerHTML = "";
+    images.forEach(src => {
+      const img = document.createElement("img");
+      img.src = src;
+      img.style.width = "100%";
+      img.style.marginBottom = "10px";
+      container.appendChild(img);
+    });
+    document.getElementById("leafletModal").style.display = "flex";
+  }
+
+  function closeLeaflet() {
+    document.getElementById("leafletModal").style.display = "none";
+  }
+   window.addEventListener("click", function(e) {
+    const modal = document.getElementById("leafletModal");
+    const content = document.querySelector(".leaflet-content");
+    if (e.target === modal) {
+      closeLeaflet();
+    }
+  }); 
+</script>
+
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Kembali ke atas">↑</button>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+<footer class="footer">
+  <p>&copy; 2025 Sahabat Anak.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sahabat Anak</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/pola.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome1.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome2.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome3.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome4.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome5.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome6.jpg') }}">
+</head>
+<body>
+ <header>
+    <div><a href="{{ url_for('index') }}" class="logo">SAHABAT ANAK</a></div>
+<nav>
+  <a href="{{ url_for('index') }}">Home</a>
+  <a href="{{ url_for('tentang') }}">Tentang Website</a>
+  <a href="{{ url_for('chatbot') }}">Sahabat Anak Bot</a>
+
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Pages &#9662;</a>
+    <div class="dropdown-content">
+      <a href="{{ url_for('edukasi') }}">Edukasi</a>
+      <a href="{{ url_for('gizi') }}">Gizi dan Nutrisi</a>
+      <a href="{{ url_for('pola') }}" class="active">Pola Asuh Anak</a>
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Pola Asuh Anak</h2>
+      <p><a href="{{ url_for('index') }}" class="breadcrumb-link">Home</a> / Pages / Pola Asuh Anak</p>
+    </div>
+  </section>
+
+<section class="pola-asuh-section">
+  <div class="pembukaan">
+    <h2>Mengasuh Anak</h2>
+    <p>Masa bayi merupakan masa dimana perubahan dan pertumbuhan berjalan sangat cepat, terutama dalam tahun pertamanya. Dalam waktu dua hingga enam bulan pertama, si Kecil memiliki begitu banyak tugas perkembangan. Usia 0-2 tahun termasuk dalam tahapan sensori-motorik. Ia mengenal diri serta lingkungannya dengan indra (sensori) dan juga tindakannya (motorik). Melihat, meraba, mengecap, mencium, mendengar, dan menggerakan anggota tubuhnya merupakan pencapaian besarnya! Sentuhan berupa usapan, pelukan dan ciuman, serta dukungan kedua orang tua adalah sangat berarti untuknya. Cara mengasuh anak yang baik di masa awal kehidupannya adalah dengan mendampingi dengan penuh kasih sayang sehingga sang anak merasa aman dan nyaman.</p>
+  </div>
+
+  <div class="poin-wrapper">
+    <div class="poin-box">
+      <img src="{{ url_for('static', filename='images/polaasuh1.jpg') }}" alt="ASI" class="poin-img">
+    </div>
+    <div class="poin-box">
+      <img src="{{ url_for('static', filename='images/polaasuh3.jpg') }}" alt="ASI" class="poin-img">
+    </div>
+  </div>
+</section>
+
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Kembali ke atas">↑</button>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+<footer class="footer">
+  <p>&copy; 2025 Sahabat Anak.</p>
+</footer>
+</body>
+</html>

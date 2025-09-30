@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sahabat Anak</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome1.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome2.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome3.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome4.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome5.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome6.jpg') }}">
+</head>
+<body>
+
+  <header>
+    <div><a href="{{ url_for('index') }}" class="logo">SAHABAT ANAK</a></div>
+    <nav>
+      <a href="{{ url_for('index') }}" class="active">Home</a>
+      <a href="{{ url_for('tentang') }}">Tentang Website</a>
+      <a href="{{ url_for('chatbot') }}">Sahabat Anak Bot</a>
+
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Pages &#9662;</a>
+        <div class="dropdown-content">
+          <a href="{{ url_for('edukasi') }}">Edukasi</a>
+          <a href="{{ url_for('gizi') }}">Gizi dan Nutrisi</a>
+          <a href="{{ url_for('pola') }}">Pola Asuh Anak</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="slider">
+    <div class="slides">
+      <div class="slide slide1 active">
+        <div class="slide-content">
+          <h1>Bergerak Bersama Demi Mencegah Stunting!</h1>
+          <button class="btn-cta" onclick="scrollToContent()">Pelajari Sekarang!</button>
+        </div>
+      </div>
+      <div class="slide slide2">
+        <div class="slide-content">
+          <h1>Bersama Cegah Stunting Dengan Website Sahabat Anak!</h1>
+          <button class="btn-cta" data-url="{{ url_for('tentang') }}">Pelajari Sekarang!</button>
+        </div>
+      </div>
+      <div class="slide slide3">
+        <div class="slide-content">
+          <h1>Mengenal Lebih Dalam Apa Itu Stunting!</h1>
+          <button class="btn-cta" data-url="{{ url_for('edukasi') }}">Pelajari Sekarang!</button>
+        </div>
+      </div>
+      <div class="slide slide5">
+        <div class="slide-content">
+          <h1>Memenuhi Gizi dan Nutrisi Anak!</h1>
+          <button class="btn-cta" data-url="{{ url_for('gizi') }}">Pelajari Sekarang!</button>
+        </div>
+      </div>
+      <div class="slide slide4">
+        <div class="slide-content">
+          <h1>Mendalami Pola Asuh Anak!</h1>
+          <button class="btn-cta" data-url="{{ url_for('pola') }}">Pelajari Sekarang!</button>
+        </div>
+      </div>
+      <div class="slide slide6">
+        <div class="slide-content">
+          <h1>Chatting Dengan AI Untuk Menambah Pengetahuan!</h1>
+          <button class="btn-cta" data-url="{{ url_for('chatbot') }}">Pelajari Sekarang!</button>
+        </div>
+      </div>
+    </div>
+
+    <button class="nav prev" id="prevBtn">❮</button>
+    <button class="nav next" id="nextBtn">❯</button>
+  </div>
+
+  <section class="content-section" id="konten-bawah">
+    <h2>Selamat datang di website Sahabat Anak.</h2>
+    <p>
+      Website ini dibangun dengan harapan dapat mempermudah masyarakat terutama para ibu untuk mendapatkan informasi tentang gizi anak guna mencegah bertambah nya jumlah angka Stunting. Website ini dirancang sesederhana mungkin agar mudah digunakan oleh semua kalangan. Website ini dibangun sebagai layanan Chatbot yang dapat memberikan informasi seputar gizi anak. Tetapi bukan hanya Chatbot yang tersedia pada Website ini, karena Website ini memiliki beberapa menu yang dapat memberikan informasi juga. Pada website ini ada menu Edukasi, menu Pola Asuh Anak, menu Gizi dan Nutrisi, dan pastinya menu utama yaitu Chatbot.
+    </p>
+  </section>
+  <section class="content-section2">
+    <h2>Selamat mencoba dan Semoga dapat membantu.</h2>
+  </section>
+
+  <script>
+    const images = [
+      "{{ url_for('static', filename='images/gambarhome1.jpg') }}",
+      "{{ url_for('static', filename='images/gambarhome2.jpg') }}",
+      "{{ url_for('static', filename='images/gambarhome3.jpg') }}",
+      "{{ url_for('static', filename='images/gambarhome4.jpg') }}",
+      "{{ url_for('static', filename='images/gambarhome5.jpg') }}",
+      "{{ url_for('static', filename='images/gambarhome6.jpg') }}"
+    ];
+
+    images.forEach(src => {
+      const img = new Image();
+      img.src = src;
+    });
+
+    function scrollToContent() {
+      document.getElementById("konten-bawah").scrollIntoView({
+        behavior: "smooth"
+      });
+    }
+  </script>
+
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Kembali ke atas">↑</button>
+
+  <!-- Load JS dari static -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+  <footer class="footer">
+    <p>&copy; 2025 Sahabat Anak.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sahabat Anak</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/tentang.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome1.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome2.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome3.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome4.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome5.jpg') }}">
+  <link rel="preload" as="image" href="{{ url_for('static', filename='images/gambarhome6.jpg') }}">
+</head>
+<body>
+ <header>
+    <div><a href="{{ url_for('index') }}" class="logo">SAHABAT ANAK</a></div>
+<nav>
+  <a href="{{ url_for('index') }}">Home</a>
+  <a href="{{ url_for('tentang') }}" class="active">Tentang Website</a>
+  <a href="{{ url_for('chatbot') }}">Sahabat Anak Bot</a>
+
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Pages &#9662;</a>
+    <div class="dropdown-content">
+      <a href="{{ url_for('edukasi') }}">Edukasi</a>
+      <a href="{{ url_for('gizi') }}">Gizi dan Nutrisi</a>
+      <a href="{{ url_for('pola') }}">Pola Asuh Anak</a>
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Tentang Website</h2>
+      <p><a href="{{ url_for('index') }}" class="breadcrumb-link">Home</a> / Pages / Tentang Website</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h2 class="judul">Tentang Kami</h2>
+      <p class="subjudul">Atasi stunting dengan mudah bersama aplikasi Sahabat Anak!</p>
+      <p>Sahabat Anak adalah website yang dibangun untuk membantu mencegah stunting pada anak. Website ini bertujuan untuk memberikan informasi yang akurat dan terpercaya kepada orang tua maupun masyarakat umum, agar dapat memahami gejala, penyebab, serta pencegahan stunting secara efektif. Website ini menyediakan beberapa fitur menu, yaitu Edukasi, Pola Asuh Anak, Gizi dan Nutrisi, dan fitur Chatbot. </p>
+    </div>
+  </section>
+
+<section class="fitur-tentang">
+  <div class="judul-besar">
+    <h2>Menu Utama Sahabat Anak</h2>
+    <p>Berikut ini ialah penjelasan tentang menu-menu yang dapat di akses pada website ini.</p>
+  </div>
+
+  <div class="fitur-box">
+      <img src="{{ url_for('static', filename='images/tentangedukasi.jpg') }}" alt="Edukasi" class="ikon-gambar">
+      <div class="fitur-teks">
+        <h3>Edukasi</h3>
+        <p>Menu ini memberikan informasi seputar Stunting. Dari pengertian apa itu Stunting, gejala-gejala Stunting, penyebab Stunting, dampak Stunting, pengobatan Stunting, dan cara mencegah Stunting. Konten pada menu Edukasi ini diharapkan dapat menjadi ilmu tambahan agar dapat mencegah lebih awal terjadi nya Stunting pada anak.</p>
+        <button class="btn-cta" onclick="window.location.href='edukasi.html'">Lihat Sekarang!</button>
+      </div>
+    </div>
+
+    <div class="fitur-box">
+      <img src="{{ url_for('static', filename='images/tentanggizi.jpg') }}" alt="Gizi dan Nutrisi" class="ikon-gambar">
+      <div class="fitur-teks">
+        <h3>Gizi dan Nutrisi</h3>
+        <p>Menu ini memberikan informasi seputar pemberian gizi dan nutrisi untuk anak. Mulai dari pembahasan nutrisi apa yang dibutuhkan anak, makanan apa yang perlu dibatasi untuk anak, hingga pemberian gizi dalam 1.000 Hari Pertama Kehidupan, dan pemberian gizi berdasarkan usia anak. Konten dari menu Gizi dan Nutrisi ini diharapkan dapat membantu agar mendukung tumbuh kembang anak dan mencegah kekurangan gizi dan nutrisi.</p>
+        <button class="btn-cta" onclick="window.location.href='gizi.html'"> Lihat Sekarang!</button>
+      </div>
+    </div>
+
+    <div class="fitur-box">
+      <img src="{{ url_for('static', filename='images/tentangpolaasuh.jpg') }}" alt="Pola Asuh Anak" class="ikon-gambar">
+      <div class="fitur-teks">
+        <h3>Pola Asuh Anak</h3>
+        <p>Menu ini memberikan informari seputar Pola Asuh Anak. Mulai dari pembahasan tentang cara mengasuh anak baru lahir hingga umur 1,5 tahun, kemudian cara mendidik anak-anak dari usia 2 tahun hingga 5 tahun. Ada juga poin-poin penting yang dapat dilakukan untuk mengasuh anak bayi karena akan berdampak besar pada kesehatan, perkembangan karakter dan fisik si anak. Konten dari menu Pola Asuh Anak ini diharapkan dapat membantu orang tua memahami pentingnya pola asuh yang baik untuk tumbuh kembang anak yang optimal.</p>
+        <button class="btn-cta" onclick="window.location.href='pola.html'">Lihat Sekarang!</button>
+      </div>
+    </div>
+
+    <div class="fitur-box">
+      <img src="{{ url_for('static', filename='images/tentangchatbot.jpg') }}" alt="Chatbot" class="ikon-gambar">
+      <div class="fitur-teks">
+        <h3>Chatbot</h3>
+        <p>Menu ini menyediakan media sumber informasi seputar Stunting. Berbeda dengan yang ada di menu Edukasi, pada menu ini memberikan fitur Chatbot interaktif yang siap memberikan informasi dan menjawab pertanyaan apa pun seputar Stunting. Cara menggunakan Chatbot ini juga sangat mudah, hanya dengan mengetik pertanyaan yang ingin anda tanyakan, lalu mengirimnya, setelah itu sistem Chatbot ini akan memberikan jawaban dari pertanyaan yang anda berikan. Chatbot ini beroperasi selama 24 jam, yang memungkinkan untuk dapat digunakan kapan pun dan dimana pun.</p>
+        <button class="btn-cta" onclick="window.location.href='chatbot.html'">Lihat Sekarang!</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Kembali ke atas">↑</button>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  
+<footer class="footer">
+  <p>&copy; 2025 Sahabat Anak.</p>
+</footer>
+</body>
+</html>
